@@ -1,0 +1,69 @@
+---
+title: EuRuKo 2024 | Sponsoring
+permalink: /sponsoring/
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/sponsoring.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+
+<header>
+    <view column class="layout-wrapper">
+        <h1 class="fw-bold c-red">
+            Our Sponsors
+        </h1>
+        <h3 class="fw-bold">
+            A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!
+        </h3>
+        <img src="/assets/images/homepage-header.svg"/>
+    </view>
+</header>
+
+<content style="margin-top: 0px">
+    <section>
+        <view column class="layout-wrapper">
+
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.level == 'partner' or sponsor.level == 'platinum' %}
+            <div class="main-sponsor">
+                <a href="{{ sponsor.url }}" target="_blank">
+                    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
+                    <p class="level c-{{ sponsor.level }}">{{ sponsor.level }}</p>
+                </a>
+                <p>{{ sponsor.description }}</p>
+                <div class="links-wrapper">
+                    {% if sponsor.twitter %}
+                      <a href="{{ sponsor.twitter }}" target="_blank">
+                          <img src="/assets/images/services/twitter.svg"/>
+                      </a>
+                    {% endif %}
+                    {% if sponsor.linkedin %}
+                      <a href="{{ sponsor.linkedin }}" target="_blank">
+                          <img src="/assets/images/services/linkedin.svg"/>
+                      </a>
+                    {% endif %}
+                    {% if sponsor.facebook %}
+                    <a href="{{ sponsor.facebook }}" target="_blank">
+                        <img src="/assets/images/services/facebook.svg"/>
+                    </a>
+                    {% endif %}
+                    {% if sponsor.instagram %}
+                    <a href="{{ sponsor.instagram }}" target="_blank">
+                        <img src="/assets/images/services/instagram.svg"/>
+                    </a>
+                    {% endif %}
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="/assets/images/link.svg"/>
+                    </a>
+                </div>
+            </div>
+
+            {% else %}
+            <div class="sponsor-level-list">
+                {% include sponsor_page_line.html sponsor=sponsor %}
+            </div>
+
+            {% endif %}
+            {% endfor %}
+        </view>
+    </section>
+</content>

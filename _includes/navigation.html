@@ -1,0 +1,23 @@
+<nav>
+  <view class="layout-wrapper h-flex-wrap">
+      {% include logo.html %}
+
+      <div id="menu-opener" onClick="openMenu()">
+          <img src="/assets/images/menu.svg" width="30" height="24"/>
+      </div>
+      <view class="responsive-wrapper align-items-center">
+        <view class="menu">
+          <a href="/sponsoring" {% if page.path contains 'sponsoring' %}class="selected"{% endif %}>Sponsors</a>
+          <a href="/coc" {% if page.path contains 'coc' %}class="selected"{% endif %}>CoC</a>
+        </view>
+
+        <a href="#" class="button bg-red" target="_blank" >Coming soon!</a>
+      </view>
+  </view>
+</nav>
+
+<script type="text/javascript">
+  function openMenu() {
+      document.getElementsByTagName('nav')[0].classList.toggle('active');
+  }
+</script>
