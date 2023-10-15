@@ -1,0 +1,51 @@
+@import "includes";
+
+.sponsor-list {
+
+    .sponsor-wrapper {
+        a {
+            margin: 40px 15px;
+
+            img {
+                height: 50px;
+            }
+        }
+
+        &.small {
+            a {
+                margin: 20px 5px;
+
+                img {
+                    height: 34px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .sponsor-list {
+        .layout-wrapper > view {
+            justify-content: center;
+        }
+        .sponsor-wrapper {
+            a {
+                margin: 20px;
+
+                img {
+                    height: 30px;
+                }
+            }
+
+            &.small {
+                a {
+                    margin: 15px;
+
+                    img {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
