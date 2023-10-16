@@ -16,7 +16,7 @@
 title: EuRuKo 2024
 email: muhamed@euruko.com
 description: >- # this means to ignore newlines until "baseurl:"
-  EuRuKo is the annual European Ruby Conference. Join us in Tuzla, Bosnia & Herzegovina on September 6-7, 2024.
+  EuRuKo is the annual European Ruby Conference. Join us in Tuzla, Bosnia & Herzegovina in 2024 - date TBD.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://2024.euruko.org" # the base hostname & protocol for your site, e.g. http://example.com
 
