@@ -1,11 +1,12 @@
-- name: BH Futures Foundation
-  key: bhff
-  logo: bhff.png
-  url: https://www.bhfuturesfoundation.org
-  description: By empowering the youth through education, technology and leadership, we shape the next generation of change makers. The foundation aims to transform Bosnia & Herzegovina into a prosperous nation that can respond to the challenges of the 21st century. It does this by empowering the youth through non-formal education, technology access and development of world class leadership skills.
-  facebook: https://www.facebook.com/Bosnia-Herzegovina-Futures-Foundation-1815662235379743/
-  instagram: https://www.instagram.com/bhfuturesfoundation/
-  linkedin: https://www.linkedin.com/company/bhfuturesfoundation
+- name: BRAVO
+  key: bravo
+  logo: bravo.png
+  url: https://bravo-bih.com/
+  description: Bosnian Representative Association for Valuable Opportunities (BRAVO) is a non-profit and non-governmental organization. BRAVO is a professional organization based and focused on knowledge, entrepreneurship, civil society development, non-formal education and innovative learning and development techniques for young people and adults. What makes this organization outstanding and ready to take responsibility are our key principles -> tolerance, democracy, diversity, voluntariness and openness.
+  facebook: https://www.facebook.com/BravoSarajevo/
+  instagram: https://www.instagram.com/bravo.bih/?hl=en
+  linkedin: https://www.linkedin.com/company/bravo-bih/
+  twitter: https://twitter.com/bravo_bih?lang=en
   level: partner
   has_jobs: false
 
