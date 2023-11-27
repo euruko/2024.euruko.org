@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/blog.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+<content>
+  <section class="section-spacing">
+    <view column class="layout-wrapper">
+      <h1 class="section-header align-self-start">{{ page.title }}</h1>
+      <div class="meta">
+        {% if page.minutes %}
+        {{ page.minutes }} minute read
+        {% else %}
+        {{ minutes }} minute read
+        {% endif %}
+      </div>
+
+      <article style="margin-top: 40px;">
+        {{ content }}
+      </article>
+    </view>
+  </section>
+</content>
+
+{% include newsletter.html %}
