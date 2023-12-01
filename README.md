@@ -1,6 +1,6 @@
-# Euruko 2024 website
+# EuRuKo 2024 website
 
-Placeholder website for Euruko 2024.
+Placeholder website for EuRuKo 2024.
 
 ## Deploy
 
