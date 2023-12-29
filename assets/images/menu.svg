@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="160px" viewBox="0 0 200 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Hambuger</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="7.5855201%" y1="50%" x2="93.474139%" y2="50%" id="linearGradient-1">
-            <stop stop-color="#FF6A62" offset="0%"></stop>
-            <stop stop-color="#FF564C" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-675.000000, -687.000000)">
-        <g id="Hambuger" transform="translate(675.000000, 687.000000)" fill="url(#linearGradient-1)">
-            <rect id="Rectangle-3-Copy-2" x="0" y="120" width="139" height="40" rx="20"></rect>
-            <rect id="Rectangle-3-Copy-2" x="0" y="60" width="200" height="40" rx="20"></rect>
-            <rect id="Rectangle-3-Copy-3" x="0" y="0" width="200" height="40" rx="20"></rect>
-        </g>
-    </g>
+<svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="menu-2">
+<path id="Path" d="M6.16406 8.49984H28.8307" stroke="#F6F6F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M6.16406 16.9998H28.8307" stroke="#F6F6F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_3" d="M6.16406 25.4998H28.8307" stroke="#F6F6F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 </svg>

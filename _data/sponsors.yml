@@ -1,22 +1,6 @@
-- name: BRAVO
-  key: bravo
-  logo: bravo.png
-  url: https://bravo-bih.com/
-  description: Bosnian Representative Association for Valuable Opportunities (BRAVO) is a non-profit and non-governmental organization. BRAVO is a professional organization based and focused on knowledge, entrepreneurship, civil society development, non-formal education and innovative learning and development techniques for young people and adults. What makes this organization outstanding and ready to take responsibility are our key principles -> tolerance, democracy, diversity, voluntariness and openness.
-  facebook: https://www.facebook.com/BravoSarajevo/
-  instagram: https://www.instagram.com/bravo.bih/?hl=en
-  linkedin: https://www.linkedin.com/company/bravo-bih/
-  twitter: https://twitter.com/bravo_bih?lang=en
-  level: partner
-  has_jobs: false
-
 - name: Meister
   key: meister
   logo: meisterlabs.svg
   url: https://www.meisterlabs.com
-  description: For over 15 years, we have created stunningly-designed productivity tools that help teams work beautifully together. The incredible success of our first product, MindMeister, followed by the introduction of MeisterTask and MeisterNote, means that the Meister Suite is essential to productivity for countless teams around the world. Our journey is only possible through the efforts of the Meister team, the support of our investors, and the incredible engagement of over 33 million users worldwide. As a product-led company, we are defined by what we create, which is why everything we do is guided by a clear, big-picture philosophy about what sort of company we want to be.
-  twitter: https://twitter.com/mindmeister
-  facebook: https://www.facebook.com/mindmeister/
-  linkedin: https://www.linkedin.com/company/meisterlabs-gmbh
-  level: partner
-  has_jobs: false
+  description: For over 15 years, we have created stunningly-designed productivity tools that help teams work beautifully together. We are defined by what we create, which is why everything we do is guided by a clear, big-picture philosophy about what sort of company we want to be.  What we create, which is why everything we do is guided by a clear, big-picture philosophy about what sort of company we want to be.
+  level: ruby

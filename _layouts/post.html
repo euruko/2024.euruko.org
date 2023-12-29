@@ -1,31 +1,62 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <title>EuRuKo 2024 | EuRuKo is the annual European Ruby Conference. Join us in Sarajevo, Bosnia &amp; Herzegovina in 2024 on 11th - 13th of September.</title>
+    <meta name="generator" content="Jekyll v3.9.3" />
+    <meta property="og:title" content="EuRuKo 2024" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="EuRuKo is the annual European Ruby Conference. Join us in Sarajevo, Bosnia &amp; Herzegovina in 2024 on 11th - 13th of September." />
+    <meta property="og:description" content="EuRuKo is the annual European Ruby Conference. Join us in Sarajevo, Bosnia &amp; Herzegovina in 2024 on 11th - 13th of September." />
+    <link rel="canonical" href="https://2024.euruko.org" />
+    <meta property="og:url" content="https://2024.euruko.org" />
+    <meta property="og:site_name" content="EuRuKo 2024" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="EuRuKo 2024" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/app.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head> 
 
-<link rel="stylesheet" href="{{ '/assets/css/blog.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
+<body>
+  <div class="page">
 
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
+    {% include navigation.html %}
 
-<content>
-  <section class="section-spacing">
-    <view column class="layout-wrapper">
-      <h1 class="section-header align-self-start">{{ page.title }}</h1>
-      <div class="meta">
-        {% if page.minutes %}
-        {{ page.minutes }} minute read
-        {% else %}
-        {{ minutes }} minute read
-        {% endif %}
-      </div>
+    <main class="content">
+      <section class="section section--basic">
+        <div class="section__content">
+          <div class="section__header">
+            <h2 class="section__title is-regular has-dot">Announcements</h2>
+            <a href="/announcements" class="button button--secondary">
+              View all
+            </a>
+          </div> 
+          <div class="announcement">
+            <div class="announcement__aside">
+              <div class="announcement__image">
+                <img src="/assets/images/announcements/{{page.image}}" alt="Announcement image" />
+              </div>
+            </div>
+            <div class="announcement__main">
+              <h3 class="announcement__title">
+                {{page.title}}
+              </h3>
+              <article class="announcement__text">
+                {{ content }}
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <article style="margin-top: 40px;">
-        {{ content }}
-      </article>
-    </view>
-  </section>
-</content>
-
-{% include newsletter.html %}
+    {% include footer.html %}
+  </div>
+</body>
+</html>

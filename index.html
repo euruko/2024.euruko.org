@@ -1,53 +1,304 @@
 ---
 layout: default
 ---
-
-<header class="homepage">
-  <view column class="layout-wrapper">
-    <h1 class="fw-bold c-red">
-      Where Ruby Developers meet
-    </h1>
-    <h3 class="fw-bold">
-      Tuzla, Bosnia & Herzegovina <br />
-      12-13th of September
-    </h3>
-  </view>
-</header>
-
-
-<content style="margin-top: 0px">
-
-  {% include sponsor_list.html %}
-
-  <section class="section-spacing">
-    <view class="layout-wrapper">
-      <h3 class="description fw-medium">
-        EuRuKo is the annual European conference that brings you all the good news about Ruby and its friends. Every year it takes
-        place in a different European city, the location being chosen by the participants. We are tremendously happy to be organising
-        this next edition. Join us in Tuzla on 12-13th of September the first-ever Ruby conference in Bosnia & Herzegovina.
-      </h3>
-    </view>
+<main class="content">
+  <header class="header">
+    <div class="header__content">
+      <h4 class="header__subscript">
+        Welcome to the G.O.A.T.
+      </h4>
+      <h1 class="header__title">
+        E<span>u</span>r<span>u</span>k<span>o</span>
+      </h1>
+      <div class="header__logo">
+        <img src="/assets/images/logo.svg" alt="EuRuKo'24 logo" />
+      </div>
+      <div class="header__footer">
+        <div class="header__footer__text">
+          September 11-13 
+          <span>2024</span>
+        </div>
+        <div class="header__links">
+          <a href="https://twitter.com/euruko" target="_blank" class="header__links__item for-twitter"></a>
+          <a href="https://ruby.social/@Euruko" target="_blank" class="header__links__item for-mastodon"></a>
+          <a href="https://www.linkedin.com/company/euruko/" target="_blank" class="header__links__item for-linkedin"></a>
+        </div>
+        <div class="header__footer__text">
+          Sarajevo, BiH
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section section--about">
+    <div class="section__content">
+      <article class="section__article mb--4">
+        <h3 class="section__article__title has-dot">What is EuRuKo?</h3>
+        <p class="section__article__text">
+          EuRuKo (European Ruby Konferenz) is the largest and longest running annual Ruby conference in Europe, since 2003, 
+          that brings you all the good news about Ruby and its friends. Every year it takes place in a different European city, 
+          the location being chosen by participants.
+        </p>
+      </article>
+      <article class="section__article mb--4">
+        <h3 class="section__article__title">G.O.A.T. EuRuKo 2024</h3>
+        <p class="section__article__text">
+          EuRuKo 2024 will be held in Sarajevo, Bosnia and Herzegovina.
+        </p>
+        <p class="section__article__text">  
+          The first-ever Ruby conference in Bosnia and Herzegovina will continue the hybrid approach developed in the previous 
+          years and will be held online and in-person at the same time.
+        </p> 
+      </article>
+      <p class="section__text">
+        Why the goat? <a href="/why_the_goat">Read more about it here</a>.
+      </p>
+    </div>
   </section>
-
-  <section id="announcements" class="section-spacing">
-    <view column class="layout-wrapper">
-      <h2 class="section-header align-self-start">Announcements</h2>
-
-      {% for post in site.posts %}
-      <view class="announcements">
-        <!-- <view class="image" style='background-image: url("/assets/images/posts/{{ post.image }}")'></view> -->
-        <view class="text-wrapper">
-          <h3 class="fw-bold">
-            {{ post.title }}
-          </h3>
-          {{ post.excerpt }}
-          <a href="{{post.url}}" class="button bg-red align-self-start" >Read more...</a>
-        </view>
-      </view>
-      {% endfor %}
-    </view>
+  <section class="section section--location" id="location">
+    <div class="section__content">
+      <article class="section__article">
+        <h3 class="section__article__title has-dot">Location</h3>
+        <p class="section__text mb--2">
+          EuRuKo 2024 will be held at <a href="https://hotelhills.ba/" target="_blank">Hotel Hills: Congress & Thermal Spa Resort</a>.
+        </p>  
+        <p class="section__article__text mb--2">
+          This five-start resort is home to the most modern convention center in the region, has a rich thermal spa offer, 
+          it is located 2 km from the well connected Sarajevo airport, it is a 20 minutes bus or taxi ride away from 
+          the historic Sarajevo city center. Together with it’s nearby sister hotel, hotel Hollywood, it provides 
+          accommodation for up to 700 guests.
+        </p>
+        <p class="section__article__text mb--2">
+          As guests of the conference, you will receive a discount for accommodation in hotels Hills and Hollywood 
+          and if you book accommodation at these hotels, you will get full access to their thermal spa offer, as 
+          mentioned in the form on the links below. 
+        </p>
+        <p class="section__article__text mb--2">
+          Please use the links below to get the discounted accommodation:
+        </p>
+        <p class="section__text">
+          - <a href="https://hotelhills.ba/reservation-form-euruko/" target="_blank">Hotel Hills registration form</a>
+        </p>
+        <p class="section__text">
+          - <a href="https://www.hotel-hollywood.ba/reservation-form-euruko/" target="_blank">Hotel Hollywood registration form</a>
+        </p>
+      </article>
+    </div>
   </section>
+  <section class="section section--tickets">
+    <div class="section__content">
+      <article class="section__article">
+        <h3 class="section__article__title has-dot">EuRuKo ticket benefits</h3>
+        <p class="section__article__text">
+          This is what you get when you buy a ticket for EuRuKo 2024
+        </p>
+      </article>
+      <div class="benefits">
+        <div class="benefits__item">
+          <div class="benefit">
+            <div class="benefit__image" style="background-image: url(/assets/images/benefits/hills.jpg);"></div>
+            <h4 class="benefit__title">Thermal Spa Resort</h4>
+            <p class="benefit__text">
+              As hotel guests you get free access to the thermal spa offer of a five-star hotel.
+            </p>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefit">
+            <div class="benefit__image" style="background-image: url(/assets/images/benefits/buffet.webp);"></div>
+            <h4 class="benefit__title">Catering</h4>
+            <p class="benefit__text">
+              All in-person attendees get complimentary lunch and coffee breaks.
+            </p>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefit">
+            <div class="benefit__image" style="background-image: url(/assets/images/benefits/sarajevo.jpg);"></div>
+            <h4 class="benefit__title">Sarajevo</h4>
+            <p class="benefit__text">
+              You get to visit Sarajevo, the capital of Bosnia & Herzegovina, often called the european Jerusalem.
+            </p>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefit">
+            <div class="benefit__image" style="background-image: url(/assets/images/benefits/platform.jpg);"></div>
+            <h4 class="benefit__title">Livestreaming and networking platform</h4>
+            <p class="benefit__text">
+              Access to an interactive platform with AI networking features and more...
+            </p>
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefit">
+            <div class="benefit__image" style="background-image: url(/assets/images/benefits/discord.svg);"></div>
+            <h4 class="benefit__title">Discord</h4>
+            <p class="benefit__text">
+              Access to a EuRuKo Discord server where you can talk with fellow attendees, speakers, and sponsors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section--sponsors" id="sponsors">
+    <div class="section__content">
+      <h2 class="section__title has-dot">Sponsors</h2>
+      <p class="section__text">The essential reason of why EuRuKo 2024 is more affordable for our community.</p>
+      <div class="cards">
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card">
+            <div class="card__label card-label--ruby">Ruby</div>
+            <div class="card__body">
+              <div class="card__logo mb--2">
+                <a href="https://www.meisterlabs.com" target="_blank" class="card__logo__link">
+                  <img src="/assets/images/sponsors/meisterlabs-logo.png" alt="Meister" />
+                </a>
+              </div>
+              <div class="card__text">
+                For over 15 years, we have created stunningly-designed productivity tools that help teams work beautifully together. 
+                We are defined by what we create, which is why everything we do is guided by a clear, big-picture philosophy about 
+                what sort of company we want to be.  What we create, which is why everything we do is guided by a clear, big-picture 
+                philosophy about what sort of company we want to be.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__footer section-footer--right">
+        <div class="section__footer__content">
+          <p class="sponsorship">
+            Want to see your logo here?
+            <span><a href="/sponsoring">Consider sponsoring us.</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section--partners">
+    <div class="section__content">
+      <h2 class="section__title has-dot is-right">Partners</h2>
+      <p class="section__text">EuRuKo 2024 is brought to you by our team (page coming soon) and our partners.</p>
+      <div class="cards">
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--partner">
+            <div class="card__label card-label--default">Organizing</div>
+            <div class="card__body">
+              <a href="https://poduzetnici.ba/" class="card__body__link">
+                <img src="/assets/images/partners/logo_poduzetnici_po 1.png" alt="Fondacija Poduzetnika" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--partner">
+            <div class="card__label card-label--default">Organizing</div>
+            <div class="card__body">
+              <a href="https://bravo-bih.com/" class="card__body__link">
+                <img src="/assets/images/partners/bravo.png" alt="Bravo" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--partner">
+            <div class="card__label card-label--default">Production</div>
+            <div class="card__body">
+              <a href="https://www.tritonprodukcija.ba/" class="card__body__link">
+                <img src="/assets/images/partners/triton.png" alt="Triton" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cards__item col--100">
+          <div class="card">
+            <div class="card__label card-label--default">Community Partners</div>
+            <div class="card__body">
+              <div class="community-partners">
+                <div class="community-partners__item">
+                  <a href="https://www.adriasecuritysummit.com/" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/adria-logo.png" alt="Adria Security Summit" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://helsinkiruby.fi/" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/helsinki-ruby.png" alt="Helsinki Ruby" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://rubyonrails.ba/" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/rubyonrailsba.png" alt="Ruby on Rails BA" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://friendlyrb.com/" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/friendlyrb.png" alt="Friendly RB" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://rubyonrails.org/foundation" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/rails-foundation.png" alt="Rails Foundation" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://helvetic-ruby.ch/" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/helvetic-ruby.png" alt="Helvetic Ruby" />
+                  </a>
+                </div>
+                <div class="community-partners__item">
+                  <a href="https://ba.linkedin.com/company/gdg-sarajevo" target="_blank" class="community-partners__link">
+                    <img src="/assets/images/partners/GDGSA-logo.png" alt="GDGSA" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section--announcements">
+    <div class="section__content">
+      <h2 class="section__title has-dot">Announcements</h2>
+      <p class="section__text">Only latest listed here</p>
+      <div class="cards">
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--announcement" style="background-image: url(/assets/images/announcements/sahat_kula.jpg);">
+            <div class="card__overlay"></div>
+            <div class="card__body">
+              <h4 class="card__title">Timeline & Additional Information</h4>
+              <div class="card__text">
+                Timeline for CfP, speakers & agenda announcement, ticket prices and more...
+              </div>
+            </div>
+            <div class="card__footer">
+              <a href="/2023/12/28/timeline-and-info.html" class="button button--primary">Read</a>
+            </div>
+          </div>
+        </div>
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--announcement" style="background-image: url(/assets/images/announcements/sarajevo.jpg);">
+            <div class="card__overlay"></div>
+            <div class="card__body">
+              <h4 class="card__title">Location & Venue Update: EuRuKo 2024 is moving to Sarajevo!</h4>
+              <div class="card__text">
+                In our best efforts to support everyone who wants to join EuRuKo 2024 in Bosnia & Herzegovina, we have made the difficult decision of moving the conference from Tuzla to Sarajevo. The dates will be kept the same, 11-12-13 of September, just the location is going to change.
+              </div>
+            </div>
+            <div class="card__footer">
+              <a href="/2023/12/24/location-change.html" class="button button--primary">Read</a>
+            </div>
+          </div>
+        </div>
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--forward">
+            <div class="card__body">
+              <a href="/announcements" class="button button--primary">View All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
-</content>
-
-{% include newsletter.html %}

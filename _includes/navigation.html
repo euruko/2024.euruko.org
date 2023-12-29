@@ -1,23 +1,72 @@
-<nav>
-  <view class="layout-wrapper h-flex-wrap">
-      {% include logo.html %}
-
-      <div id="menu-opener" onClick="openMenu()">
-          <img src="/assets/images/menu.svg" width="30" height="24"/>
+<nav class="navbar">
+  <div class="navbar__inner">
+    <ul class="navbar__list">
+      <li class="navbar__list__item">
+        <a href="/coc" class="navbar__list__link">CoC</a>
+      </li>
+      <li class="navbar__list__item">
+        <a href="/why_the_goat" class="navbar__list__link">Why the goat?</a>
+      </li>
+      <li class="navbar__list__item">
+        <a href="/#location" class="navbar__list__link">Location</a>
+      </li>
+    </ul>
+    <div class="navbar__logo">
+      <a href="/" >
+        <img src="/assets/images/logotip.png" alt="EuRuKo 2024" />
+      </a>
+    </div>
+    <ul class="navbar__list">
+      <li class="navbar__list__item">
+        <a href="/#sponsors" class="navbar__list__link">Sponsors</a>
+      </li>
+      <li class="navbar__list__item has-note">
+        <a href="#" class="button button--primary">Get Tickets</a>
+        <span class="navbar__note">Coming Soon</span>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar__mobile">
+    <div class="navbar__mobile__inner">
+      <div class="navbar__logo">
+        <a href="/" >
+          <img src="/assets/images/logotip.png" alt="EuRuKo 2024" />
+        </a>
       </div>
-      <view class="responsive-wrapper align-items-center">
-        <view class="menu">
-          <a href="/sponsoring" {% if page.path contains 'sponsoring' %}class="selected"{% endif %}>Sponsors</a>
-          <a href="/coc" {% if page.path contains 'coc' %}class="selected"{% endif %}>CoC</a>
-        </view>
-
-        <a href="#" class="button bg-red" target="_blank" aria-disabled="true">Coming soon!</a>
-      </view>
-  </view>
+      <div onClick="toggleMenu()" class="navbar_mobile__menu">
+        <img src="/assets/images/menu.svg"/>
+      </div>
+    </div>
+    <div class="navbar__mobile__content">
+      <div class="navbar__mobile__content__inner">
+        <div onClick="toggleMenu()" class="navbar_mobile__close">
+          <img src="/assets/images/close.svg"/>
+        </div>
+        <ul class="navbar__list">
+          <li class="navbar__list__item">
+            <a href="/coc" class="navbar__list__link">CoC</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="/why_the_goat" class="navbar__list__link">Why the goat?</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="/#location" class="navbar__list__link">Location</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="/#sponsors" class="navbar__list__link">Sponsors</a>
+          </li>
+          <li class="navbar__list__item has-note">
+            <a href="#" class="button button--primary">Get Tickets</a>
+            <span class="navbar__note">Coming Soon</span>
+          </li>
+        </ul>
+      </div>
+    </div>  
+  </div>
 </nav>
 
 <script type="text/javascript">
-  function openMenu() {
-      document.getElementsByTagName('nav')[0].classList.toggle('active');
+  function toggleMenu() {
+    document.getElementsByClassName('navbar__mobile__content')[0].classList.toggle('is-visible');
   }
 </script>

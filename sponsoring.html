@@ -1,89 +1,64 @@
 ---
 title: EuRuKo 2024 | Sponsoring
 permalink: /sponsoring/
-layout: default
+layout: page
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/sponsoring.css?v=' | append: site.github.build_revision | relative_url }}" media="print,screen">
-
-<header>
-    <view column class="layout-wrapper">
-        <h1 class="fw-bold c-red">
-            Our Sponsors
-        </h1>
-        <h3 class="fw-bold">
-            A big thank you to our sponsors for their support of the Ruby community and the EuRuKo conference!
-        </h3>
-    </view>
-</header>
-
-<content style="margin-top: 0px">
-    <section>
-        <view column class="layout-wrapper">
-
-            {% for sponsor in site.data.sponsors %}
-            {% if sponsor.level == 'partner' or sponsor.level == 'platinum' %}
-            <div class="main-sponsor">
-                <a href="{{ sponsor.url }}" target="_blank">
-                    <img class="logo" src="/assets/images/sponsors/{{ sponsor.logo }}" />
-                    <p class="level c-{{ sponsor.level }}">{{ sponsor.level }}</p>
-                </a>
-                <p>{{ sponsor.description }}</p>
-                <div class="links-wrapper">
-                    {% if sponsor.twitter %}
-                      <a href="{{ sponsor.twitter }}" target="_blank">
-                          <img src="/assets/images/services/twitter.svg"/>
-                      </a>
-                    {% endif %}
-                    {% if sponsor.linkedin %}
-                      <a href="{{ sponsor.linkedin }}" target="_blank">
-                          <img src="/assets/images/services/linkedin.svg"/>
-                      </a>
-                    {% endif %}
-                    {% if sponsor.facebook %}
-                    <a href="{{ sponsor.facebook }}" target="_blank">
-                        <img src="/assets/images/services/facebook.svg"/>
-                    </a>
-                    {% endif %}
-                    {% if sponsor.instagram %}
-                    <a href="{{ sponsor.instagram }}" target="_blank">
-                        <img src="/assets/images/services/instagram.svg"/>
-                    </a>
-                    {% endif %}
-                    <a href="{{ sponsor.url }}" target="_blank">
-                        <img src="/assets/images/link.svg"/>
-                    </a>
-                </div>
-            </div>
-
-            {% else %}
-            <div class="sponsor-level-list">
-                {% include sponsor_page_line.html sponsor=sponsor %}
-            </div>
-
-            {% endif %}
-            {% endfor %}
-
-            <h3 style="margin-top: 40px;" class="c-red">
-              Become a Sponsor
-            </h3>
-            <p style="margin-top: 30px;">
-                <strong>
-                    EuRuKo is the annual European conference that brings all the good news about Ruby and its friends. Every year it takes
-                    place in a different European city, the location being chosen by the participants.
-                </strong>
-            </p>
-
-            <p style="margin-top: 30px;">
-              As a sponsor you get the opportunity to reach an international crowd of talented developers.
-              It is EuRuKo's tradition to offer tickets at a low price in order to offer everyone the possibility to attend.
-              Therefore we rely on our sponsors to help us make this event an unforgettable experience for everyone involved.
-              Until we prepare sponsorship packages for you to review, please reach out and learn how your company can benefit from sponsoring the event. </p>
-
-            <p style="margin-top: 30px;">
-              Please <a href="mailto:organisers@euruko.org" target="_blank">contact us</a>
-              if you're interested or want to learn more.
-          </p>
-        </view>
-    </section>
-</content>
+<main class="content">
+  <section class="section section--basic">
+    <div class="section__content">
+      <h2 class="section__title is-regular has-dot">Sponsor EuRuKo 2024</h2>
+      <p class="section__text">
+        Help us make EuRuKo 2024 more affordable for our community.
+      </p>
+      <div class="section__action">
+        <a href="/EuRuKo_2024_Sponsorship_packages.pdf" target="_blank" class="button button--primary button--lg">
+          Download Packages
+        </a>
+      </div>
+      <h4 class="section__subtitle">What is EuRuKo?</h4>
+      <p class="section__text mb--4">
+        EuRuKo (European Ruby Konferenz) is the largest and longest running annual Ruby conference in Europe that brings 
+        you all the good news about Ruby and its friends. Every year it takes place in a different European city, the 
+        location being chosen by participants.
+      </p>
+      <h4 class="section__subtitle">Facts about EuRuKo</h4>
+      <ul class="section__list mb--4">
+        <li>~700 in-person participants expected from Europe and elsewhere (plus virtual attendees from all over the world)</li>
+        <li>Will be a three day, possibly multi-track conference in 2024</li>
+        <li>Well established in the community; it has been held since 2003 in Amsterdam, Athens, Barcelona, Berlin, Budapest, 
+          Karlsruhe, Krakow, Munich, Prague, Rotterdam, Salzburg, Sofia, Helsinki, Vilnius and Vienna</li>
+        <li>Some of the very best speakers from the Ruby community</li>
+        <li>All talks will be streamed live, recorded, and published afterwards</li>
+      </ul>
+      <h4 class="section__subtitle">Keep EuRuKo affordable</h4>
+      <p class="section__text mb--4">
+        There’s a long tradition to keep EuRuKo tickets as affordable as possible to offer everyone the opportunity to 
+        attend and sponsors are an essential part of this.
+      </p>
+      <h4 class="section__subtitle">Good for your company, good for the community</h4>
+      <p class="section__text mb--2">
+        Sponsoring EuRuKo gets you the opportunity to reach an international group of talented and passionate developers. 
+        EuRuKo is the biggest gathering of Ruby enthusiasts in Europe and one of the biggest in the world.
+      </p>
+      <p class="section__text mb--2">
+        Are you looking to hire Ruby (and not just Ruby!) developers in your company or initiative? Then you've probably 
+        looked into hiring a headhunter to find you the talent that you need. And you saw how much it costs. Most headhunters 
+        are looking for half a years' salary! By sponsoring EuRuKo, you're not only investing a fraction of the price of a 
+        headhunter, but you're getting to meet enthusiastic developers in the flesh, and by the numbers!
+      </p>
+      <p class="section__text mb--2">
+        The above goes without saying how you'd contribute to a lively Ruby community from around Europe (and the world)!
+      </p>
+      <h4 class="section__subtitle">Payment options</h4>
+      <p class="section__text mb--2">
+        Sponsorships can be paid for by SWIFT bank transfer.
+      </p>
+      <div class="section__action">
+        <a href="/EuRuKo_2024_Sponsorship_packages.pdf" target="_blank" class="button button--primary button--lg">
+          Download Packages
+        </a>
+      </div>
+    </div>
+  </section>  
+</main>

@@ -1,0 +1,31 @@
+---
+title: EuRuKo 2024 | Announcements
+permalink: /announcements/
+layout: page
+---
+<main class="content">
+  <section class="section section--basic">
+    <div class="section__content">
+      <h2 class="section__title is-regular has-dot">Announcements</h2>
+      <div class="cards">
+        
+        {% for post in site.posts %}
+        <div class="cards__item col--1-3 col--md-1-2 col--sm-100">
+          <div class="card card--announcement" style='background-image: url("/assets/images/announcements/{{post.image}}");'>
+            <div class="card__overlay"></div>
+            <div class="card__body">
+              <h4 class="card__title">{{ post.title }}</h4>
+              <div class="card__text">
+                {{ post.excerpt }}
+              </div>
+            </div>
+            <div class="card__footer">
+              <a href="{{post.url}}" class="button button--primary">Read</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>  
+</main>

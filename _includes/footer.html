@@ -1,12 +1,47 @@
-<footer class="section-spacing">
-    <view column class="layout-wrapper">
-        <view class="justify-sb align-items-center h-flex-wrap">
-            {% include logo.html %}
-            {% include social_buttons.html %}
-        </view>
-        <view class="subfooter">
-            <p>&copy; EuRuKo 2024 | Tuzla, Bosnia & Herzegovina</p>
-            <a href="mailto:organisers@euruko.org" target="_blank">Contact Us</a>
-        </view>
-    </view>
+<footer class="footer">
+    <div class="footer__content">
+        <form
+            action="https://euruko.us10.list-manage.com/subscribe/post?u=4737277ee0b37205131631c0d&amp;id=1a6fade1a6&amp;f_id=0017e7e5f0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="footer__form"
+            target="_blank"
+            novalidate
+        >
+            <div class="footer__logo">
+                <img src="/assets/images/logo.svg" alt="Euruko'24 newsletter" />
+            </div>
+            <div class="footer__input">
+                <label class="footer__input__label">Subscribe to our newsletter for updates</label>
+                <input type="email" name="EMAIL" id="mce-EMAIL" class="footer__input__field" placeholder="example@gmail.com" />
+            </div>
+            <button type="submit" name="subscribe" class="button button--primary">Subscribe</button>
+            <div aria-hidden="true" style="position: absolute; left: -5000px">
+                /* real people should not fill this in and expect good things - do
+                not remove this or risk form bot signups */
+                <input
+                    type="text"
+                    name="b_4737277ee0b37205131631c0d_1a6fade1a6"
+                    tabindex="-1"
+                    value=""
+                />
+            </div>
+        </form>
+        <div class="footer__info">
+        <div class="footer__copyright">
+            © EuRuKo 2024 | Sarajevo, BiH
+        </div>
+        <div class="footer__connect">
+            <span class="footer__connect__item">Sponsorship: <a href="mailto:sponsors@euruko.org" target="_blank">sponsors@euruko.org</a></span>
+            <span class="footer__connect__item">Partnership: <a href="mailto:organisers@euruko.org" target="_blank">organisers@euruko.org</a></span>
+            <span class="footer__connect__item">Other: <a href="mailto:contact@euruko.org" target="_blank">contact@euruko.org</a></span>
+        </div>
+        <div class="footer__links">
+            <a href="https://twitter.com/euruko" target="_blank" class="footer__links__item for-twitter"></a>
+            <a href="https://ruby.social/@Euruko" target="_blank" class="footer__links__item for-mastodon"></a>
+            <a href="https://www.linkedin.com/company/euruko/" target="_blank" class="footer__links__item for-linkedin"></a>
+        </div>
+        </div>
+    </div>
 </footer>
