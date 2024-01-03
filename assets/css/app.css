@@ -1052,6 +1052,21 @@ body {
   cursor: pointer;
 }
 
+.community-partners .community-partners__link img {
+  width: 80%;
+  height: 80%;
+}
+
+.community-partners .community-partners__link_70 img {
+  width: 70%;
+  height: 70%;
+}
+
+.community-partners .community-partners__link_60 img {
+  width: 60%;
+  height: 60%;
+}
+
 .footer {
   flex-shrink: 0;
   background-color: var(--secondary-color);
