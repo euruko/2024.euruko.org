@@ -1,9 +1,9 @@
 /* --------------------------------------- */
-/* Reset */ 
+/* Reset */
 /* --------------------------------------- */
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -19,28 +19,28 @@ body {
   text-rendering: optimizeLegibility
 }
 
-img, 
-picture, 
-video, 
-canvas, 
+img,
+picture,
+video,
+canvas,
 svg {
   display: block;
   max-width: 100%;
 }
 
-input, 
-button, 
-textarea, 
+input,
+button,
+textarea,
 select {
   font: inherit;
 }
 
-p, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   overflow-wrap: break-word;
 }
@@ -67,7 +67,7 @@ h6 {
 /* --------------------------------------- */
 /* Styles */
 /* --------------------------------------- */
- 
+
 html,
 body {
   height: 100%;
@@ -232,7 +232,7 @@ body {
 .header {
   position: relative;
   background: url('../images/bg_pattern.png') left top / 100% auto repeat-y scroll;
-}  
+}
 
 .header::before {
   content: "";
@@ -322,14 +322,14 @@ body {
 
 .header__footer__text span {
   display: block;
-} 
+}
 
 .header__links {
   width: 280px;
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 0 10px 0; 
+  margin: 0 10px 0;
   padding: 32px 0 0;
 }
 
@@ -828,7 +828,7 @@ body {
 
 .benefits {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
   margin: 40px 0 0;
 }
@@ -858,6 +858,7 @@ body {
 .benefit .benefit__text {
   font-size: 16px;
   font-weight: 500;
+  margin: 0 0 20px;
 }
 
 .profile {
@@ -1218,7 +1219,7 @@ body {
   margin-top: 40px;
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
   .page.page--pattern::before {
     display: none;
   }
@@ -1295,66 +1296,66 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  
+
   .navbar .navbar__mobile .navbar__mobile__content .navbar__list .navbar__list__item + .navbar__list__item {
     margin-left: 0;
     margin-top: 30px;
   }
-  
+
   .navbar__list__item.has-note {
     position: relative;
   }
-  
+
   .navbar__list__link {
-    
+
   }
 
   .header::after {
     background: url('../images/milje-pattern-1.png') top right / auto 25% no-repeat scroll;
   }
-  
+
   .header__content {
     padding: 80px 20px 40px;
   }
-  
+
   .header__subscript {
     font-size: 20px;
   }
-  
+
   .header__title {
     font-size: 60px;
     letter-spacing: -2px;
     margin: 10px 0 10px;
   }
-  
+
   .header__title span {
     font-size: 48px;
   }
-  
+
   .header__title span:last-child {
     margin-right: 20px;
   }
-  
+
   .header__logo {
     width: 64px;
     height: 64px;
   }
-  
+
   .header__footer {
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .header__links {
-    margin: 5px 0 20px; 
+    margin: 5px 0 20px;
   }
-  
+
   .header__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .header__links__item + .header__links__item {
     margin-left: 10px;
   }
@@ -1367,22 +1368,22 @@ body {
     top: -10px;
     background: url('../images/milje-pattern-2.png') top right / auto 12.75% no-repeat scroll;
   }
-  
+
   .section.section--sponsors::before {
     top: -20px;
     background: url('../images/milje-pattern-3.png') top right / auto 14% no-repeat scroll;
   }
-  
+
   .section.section--partners::before {
     top: -60px;
     background: url('../images/milje-pattern-4.png') top left / auto 7.5% no-repeat scroll;
   }
-  
+
   .section.section--partners::after {
     bottom: -100px;
     background: url('../images/milje-pattern-5.png') bottom right / auto 15% no-repeat scroll;
   }
-  
+
   .section.section--announcements::before {
     bottom: -50px;
     background: url('../images/milje-pattern-6.png') bottom left / auto 10% no-repeat scroll;
@@ -1391,51 +1392,51 @@ body {
   .section__header .button {
     margin-top: 8px;
   }
-  
+
   .section__title {
     font-size: 32px;
     margin: 0 0 10px;
   }
-  
+
   .section__subtitle {
     font-size: 24px;
     margin: 0 0 20px;
   }
-  
+
   .section__title.has-dot::after {
     margin-left: 10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__title.has-goat::after {
     margin-left: 10px;
     margin-top: -10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__article__title {
     font-size: 28px;
     margin: 0 0 20px;
   }
-  
+
   .section__article__title.has-dot::after {
     margin-left: 10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__text,
   .section__article__text,
   .section__list li {
     font-size: 16px;
   }
-  
+
   .section__list {
     padding-left: 20px;
   }
-  
+
   .section__action {
     margin: 30px 0 30px;
   }
@@ -1448,17 +1449,17 @@ body {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
   }
-  
+
   .benefit .benefit__image {
     aspect-ratio: 1 / 1;
     margin: 0 auto;
     width: 200px;
   }
-  
+
   .benefit .benefit__title {
     font-size: 20px;
   }
-  
+
   .benefit .benefit__text {
     font-size: 16px;
     font-weight: 400;
@@ -1478,11 +1479,11 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .profile .profile__aside {
     flex: 0 0 100%;
   }
-  
+
   .profile .profile__main {
     padding: 40px 0 0;
   }
@@ -1493,25 +1494,25 @@ body {
     max-width: 100%;
     width: 100%;
   }
-  
+
   .profile .profile__title {
     font-size: 24px;
     margin: 0 0 20px;
   }
-  
+
   .profile .profile__text {
     font-size: 16px;
   }
-  
+
   .profile .profile__action {
     margin: 20px 0 0;
   }
-  
+
   .profile__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .profile__links .profile__links__item + .profile__links__item {
     margin-left: 10px;
   }
@@ -1519,45 +1520,45 @@ body {
   .footer {
     padding: 40px 20px 40px;
   }
-  
+
   .footer__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 0 60px;
   }
-  
+
   .footer__info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   .footer__logo {
     width: 60px;
     height: 60px;
     margin: 0 0 10px;
   }
-  
+
   .footer__input__label {
     font-size: 20px;
     margin: 0 0 16px;
   }
-  
+
   .footer__copyright {
     font-size: 14px;
   }
-  
+
   .footer__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .footer__links .footer__links__item + .footer__links__item {
     margin-left: 10px;
   }
-  
+
   .footer__connect {
     position: relative;
     margin: 20px auto 20px;
@@ -1565,7 +1566,7 @@ body {
     left: 0;
     transform: none;
   }
-  
+
   .footer__connect__item {
     font-size: 20px;
   }
@@ -1575,25 +1576,25 @@ body {
     flex-direction: column;
     margin: 40px 0 0;
   }
-  
+
   .announcement .announcement__aside {
     flex: 0 0 100%;
   }
-  
+
   .announcement .announcement__main {
     flex: 1;
     padding: 30px 0 0;
   }
-  
+
   .announcement .announcement__title {
     font-size: 28px;
     margin: 0 0 30px;
   }
-  
+
   .announcement .announcement__text {
     font-size: 30px;
   }
-  
+
   .announcement .announcement__action {
     display: flex;
     justify-content: center;
@@ -1682,66 +1683,66 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  
+
   .navbar .navbar__mobile .navbar__mobile__content .navbar__list .navbar__list__item + .navbar__list__item {
     margin-left: 0;
     margin-top: 30px;
   }
-  
+
   .navbar__list__item.has-note {
     position: relative;
   }
-  
+
   .navbar__list__link {
-    
+
   }
 
   .header::after {
     background: url('../images/milje-pattern-1.png') top right / auto 30% no-repeat scroll;
   }
-  
+
   .header__content {
     padding: 80px 20px 40px;
   }
-  
+
   .header__subscript {
     font-size: 20px;
   }
-  
+
   .header__title {
     font-size: 60px;
     letter-spacing: -2px;
     margin: 10px 0 10px;
   }
-  
+
   .header__title span {
     font-size: 48px;
   }
-  
+
   .header__title span:last-child {
     margin-right: 20px;
   }
-  
+
   .header__logo {
     width: 64px;
     height: 64px;
   }
-  
+
   .header__footer {
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .header__links {
-    margin: 5px 0 20px; 
+    margin: 5px 0 20px;
   }
-  
+
   .header__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .header__links__item + .header__links__item {
     margin-left: 10px;
   }
@@ -1754,22 +1755,22 @@ body {
     top: -10px;
     background: url('../images/milje-pattern-2.png') top right / auto 22.5% no-repeat scroll;
   }
-  
+
   .section.section--sponsors::before {
     top: -20px;
     background: url('../images/milje-pattern-3.png') top right / auto 20% no-repeat scroll;
   }
-  
+
   .section.section--partners::before {
     top: -60px;
     background: url('../images/milje-pattern-4.png') top left / auto 10% no-repeat scroll;
   }
-  
+
   .section.section--partners::after {
     bottom: -150px;
     background: url('../images/milje-pattern-5.png') bottom right / auto 22.5% no-repeat scroll;
   }
-  
+
   .section.section--announcements::before {
     bottom: -50px;
     background: url('../images/milje-pattern-6.png') bottom left / auto 17.5% no-repeat scroll;
@@ -1778,51 +1779,51 @@ body {
   .section__header .button {
     margin-top: 8px;
   }
-  
+
   .section__title {
     font-size: 32px;
     margin: 0 0 10px;
   }
-  
+
   .section__subtitle {
     font-size: 24px;
     margin: 0 0 20px;
   }
-  
+
   .section__title.has-dot::after {
     margin-left: 10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__title.has-goat::after {
     margin-left: 10px;
     margin-top: -10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__article__title {
     font-size: 28px;
     margin: 0 0 20px;
   }
-  
+
   .section__article__title.has-dot::after {
     margin-left: 10px;
     height: 32px;
     width: 32px;
   }
-  
+
   .section__text,
   .section__article__text,
   .section__list li {
     font-size: 16px;
   }
-  
+
   .section__list {
     padding-left: 20px;
   }
-  
+
   .section__action {
     margin: 30px 0 30px;
   }
@@ -1836,17 +1837,17 @@ body {
     row-gap: 30px;
     column-gap: 30px;
   }
-  
+
   .benefit .benefit__image {
     aspect-ratio: 1 / 1;
     margin: 0 auto;
     width: 200px;
   }
-  
+
   .benefit .benefit__title {
     font-size: 20px;
   }
-  
+
   .benefit .benefit__text {
     font-size: 16px;
     font-weight: 400;
@@ -1868,11 +1869,11 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .profile .profile__aside {
     flex: 0 0 100%;
   }
-  
+
   .profile .profile__main {
     padding: 40px 0 0;
   }
@@ -1883,25 +1884,25 @@ body {
     max-width: 100%;
     width: 100%;
   }
-  
+
   .profile .profile__title {
     font-size: 24px;
     margin: 0 0 20px;
   }
-  
+
   .profile .profile__text {
     font-size: 16px;
   }
-  
+
   .profile .profile__action {
     margin: 20px 0 0;
   }
-  
+
   .profile__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .profile__links .profile__links__item + .profile__links__item {
     margin-left: 10px;
   }
@@ -1909,45 +1910,45 @@ body {
   .footer {
     padding: 40px 20px 40px;
   }
-  
+
   .footer__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 0 60px;
   }
-  
+
   .footer__info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   .footer__logo {
     width: 60px;
     height: 60px;
     margin: 0 0 10px;
   }
-  
+
   .footer__input__label {
     font-size: 20px;
     margin: 0 0 16px;
   }
-  
+
   .footer__copyright {
     font-size: 14px;
   }
-  
+
   .footer__links__item {
     width: 32px;
     height: 32px;
   }
-  
+
   .footer__links .footer__links__item + .footer__links__item {
     margin-left: 10px;
   }
-  
+
   .footer__connect {
     position: relative;
     margin: 20px auto 20px;
@@ -1955,7 +1956,7 @@ body {
     left: 0;
     transform: none;
   }
-  
+
   .footer__connect__item {
     font-size: 20px;
   }
@@ -1965,25 +1966,25 @@ body {
     flex-direction: column;
     margin: 40px 0 0;
   }
-  
+
   .announcement .announcement__aside {
     flex: 0 0 100%;
   }
-  
+
   .announcement .announcement__main {
     flex: 1;
     padding: 30px 0 0;
   }
-  
+
   .announcement .announcement__title {
     font-size: 28px;
     margin: 0 0 30px;
   }
-  
+
   .announcement .announcement__text {
     font-size: 30px;
   }
-  
+
   .announcement .announcement__action {
     display: flex;
     justify-content: center;
@@ -2003,143 +2004,143 @@ body {
   .header::after {
     background: url('../images/milje-pattern-1.png') top right / auto 35% no-repeat scroll;
   }
-  
+
   .header__subscript {
     font-size: 36px;
   }
-  
+
   .header__title {
     font-size: 120px;
     letter-spacing: -8px;
   }
-  
+
   .header__title span {
     font-size: 100px;
   }
-  
+
   .section {
     padding: 50px 40px 60px;
   }
-  
+
   .section.section--location::before {
     background: url('../images/milje-pattern-2.png') top right / auto 25% no-repeat scroll;
   }
-  
+
   .section.section--sponsors::before {
     background: url('../images/milje-pattern-3.png') top right / auto 25% no-repeat scroll;
   }
-  
+
   .section.section--partners::before {
     background: url('../images/milje-pattern-4.png') top left / auto 12% no-repeat scroll;
   }
-  
+
   .section.section--partners::after {
     bottom: -200px;
     background: url('../images/milje-pattern-5.png') bottom right / auto 25% no-repeat scroll;
   }
-  
+
   .section.section--announcements::before {
     bottom: -50px;
     background: url('../images/milje-pattern-6.png') bottom left / auto 20% no-repeat scroll;
   }
-  
+
   .section__title {
     font-size: 40px;
   }
-  
+
   .section__subtitle {
     font-size: 32px;
   }
-  
+
   .section__title.has-dot::after {
     margin-left: 10px;
     height: 40px;
     width: 40px;
   }
-  
+
   .section__title.has-goat::after {
     margin-left: 10px;
     margin-top: -15px;
     height: 40px;
     width: 40px;
   }
-  
+
   .section__article__title {
     font-size: 36px;
   }
-  
+
   .section__article__title.has-dot::after {
     margin-left: 10px;
     height: 40px;
     width: 40px;
   }
-  
+
   .section__text,
   .section__article__text,
   .section__list li {
     font-size: 18px;
   }
-  
+
   .sponsorship {
     font-size: 32px;
   }
-  
+
   .benefits {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     row-gap: 30px;
   }
-  
+
   .benefit .benefit__title {
     font-size: 20px;
   }
-  
+
   .profile {
     display: flex;
     margin: 40px 0 0;
   }
-  
+
   .profile .profile__aside {
     flex: 0 0 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .profile .profile__main {
     flex: 1;
     padding: 0 0 0 60px;
   }
-  
+
   .profile .profile__title {
     font-size: 36px;
     font-weight: 500;
     text-align: center;
     margin: 0 0 30px;
   }
-  
+
   .profile .profile__text {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
   }
-  
+
   .profile .profile__action {
     display: flex;
     justify-content: center;
     margin: 30px 0 0;
   }
-  
+
   .profile .profile__image {
     margin: 0 0 20px;
   }
-  
+
   .profile .profile__image img {
     width: 100%;
     height: auto;
     display: block;
   }
-  
+
   .profile .profile__label {
     display: inline-flex;
     align-items: center;
@@ -2151,56 +2152,56 @@ body {
     text-transform: uppercase;
     color: var(--text-color-default);
   }
-  
+
   .announcement {
     display: flex;
     margin: 40px 0 0;
   }
-  
+
   .announcement .announcement__aside {
     flex: 0 0 calc(100% / 3);
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .announcement .announcement__main {
     flex: 1;
     padding: 0 0 0 60px;
   }
-  
+
   .announcement .announcement__title {
     font-size: 36px;
     font-weight: 500;
     text-align: center;
     margin: 0 0 30px;
   }
-  
+
   .announcement .announcement__text {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
   }
-  
+
   .announcement .announcement__action {
     display: flex;
     justify-content: center;
     margin: 30px 0 0;
   }
-  
+
   .announcement .announcement__image img {
     width: 100%;
     height: auto;
     display: block;
   }
-  
+
   .community-partners {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     row-gap: 30px;
     padding: 20px 20px 40px;
   }
-  
+
   .footer {
     padding: 40px 40px 80px;
   }
@@ -2222,20 +2223,20 @@ body {
   .section.section--location::before {
     background: url('../images/milje-pattern-2.png') top right / auto 27.5% no-repeat scroll;
   }
-  
+
   .section.section--sponsors::before {
     background: url('../images/milje-pattern-3.png') top right / auto 27.5% no-repeat scroll;
   }
-  
+
   .section.section--partners::before {
     background: url('../images/milje-pattern-4.png') top left / auto 15% no-repeat scroll;
   }
-  
+
   .section.section--partners::after {
     bottom: -200px;
     background: url('../images/milje-pattern-5.png') bottom right / auto 30% no-repeat scroll;
   }
-  
+
   .section.section--announcements::before {
     bottom: -100px;
     background: url('../images/milje-pattern-6.png') bottom left / auto 27.5% no-repeat scroll;
