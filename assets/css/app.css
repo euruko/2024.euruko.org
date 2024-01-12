@@ -374,6 +374,7 @@ body {
 }
 
 .section.section--about,
+.section.section--agenda,
 .section.section--partners,
 .section.section--tickets {
   position: relative;
@@ -386,6 +387,7 @@ body {
 }
 
 .section.section--sponsors,
+.section.section--speakers,
 .section.section--announcements,
 .section.section--location {
   position: relative;
@@ -395,6 +397,7 @@ body {
 
 .section.section--sponsors::after,
 .section.section--announcements::after,
+.section.section--speakers::after,
 .section.section--location::after {
   content: "";
   position: absolute;
@@ -446,6 +449,18 @@ body {
   z-index: 2;
   opacity: .7;
   background: url('../images/milje-pattern-3.png') top right / auto 35% no-repeat scroll;
+}
+
+.section.section--speakers::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -60px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  opacity: .7;
+  background: url('../images/milje-pattern-4.png') top left / auto 50% no-repeat scroll;
 }
 
 .section.section--partners::before {
