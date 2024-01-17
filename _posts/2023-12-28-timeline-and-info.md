@@ -18,12 +18,12 @@ Fun fact: we already have a few speakers that we invited.
 Travel instructions will be released in the following months as well, this location should be extremely easy to get to with the well-connected Sarajevo airport, the train and bus connections.
 
 We will look to start selling tickets around February.
-According to current budget projections, for a five-star congress and thermal spa resort in Bosnia & Herzegovina the tickets will be:
-- Early-Bird 100 EUR (+VAT)
-- Regular 150 EUR (+VAT)
-- Company 200 EUR (+VAT) -> includes invoice correction support
-- Regular Support 250 EUR (+VAT) -> for all Ruby heroes that want to support us
-- Online 80 EUR (+VAT) -> virtual/networking platform access, non-refundable
+According to current budget projections, for a five-star congress and thermal spa resort in Bosnia & Herzegovina the tickets will be something like:
+- Early-Bird 150 EUR (VAT included)
+- Regular 200 EUR (VAT included)
+- Company 230 EUR (VAT included) -> includes invoice correction support
+- Regular Support 300 EUR (VAT included) -> for all Ruby heroes that want to support us
+- Online 60 EUR (VAT included) -> virtual/networking platform access, streaming access, non-refundable
 
 Since we are not looking to turn a profit on this conference, but rather to simply make a G.O.A.T. EuRuKo experience and cover our operational costs, if we get quality support from sponsors and the sponsors cover a good chunk or most of our costs, the tickets will naturally cost less.
 
