@@ -21,7 +21,6 @@ We will look to start selling tickets around February.
 According to current budget projections, for a five-star congress and thermal spa resort in Bosnia & Herzegovina the tickets will be something like:
 - Early-Bird 150 EUR (+ VAT)
 - Regular 200 EUR (+ VAT)
-- Company 250 EUR (+ VAT) -> includes invoice correction support
 - Regular Support 250 EUR (+ VAT) -> for all Ruby heroes that want to support us
 - Online 50 EUR (+ VAT) -> virtual/networking platform access, streaming access, non-refundable
 
