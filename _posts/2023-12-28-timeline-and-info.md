@@ -21,14 +21,13 @@ We will look to start selling tickets around February.
 According to current budget projections, for a five-star congress and thermal spa resort in Bosnia & Herzegovina the tickets will be something like:
 - Early-Bird 150 EUR (+ VAT)
 - Regular 200 EUR (+ VAT)
-- Regular Support 300 EUR (+ VAT) -> for all Ruby heroes that want to support us
-- Online 50 EUR (+ VAT) -> virtual/networking platform access, streaming access, non-refundable
+- Regular Support 300 EUR (+ VAT)
+- Online 50 EUR (+ VAT)
 
-Since we are not looking to turn a profit on this conference, but rather to simply make a G.O.A.T. EuRuKo experience and cover our operational costs, if we get quality support from sponsors and the sponsors cover a good chunk or most of our costs, the tickets will naturally cost less.
-
+<br/>
 All in-person tickets provide you with full access to the three days of the conference, all lectures, networking events & parties, 3 lunches, all coffee breaks that are part of the conference and access to a conference platform.
 
-The online tickets provide you with full access to a conference platform, where you will be able to see all talks streamed, interact with other participants and speakers. Online tickets support us in funding the production team that will provide streaming services and production for multiple tracks during the conference.
+The online tickets provide you with full access to a conference platform, where you will be able to see all talks streamed, interact and arrange 1-on-1 meetings with other participants and speakers. Online tickets support us in funding the production team that will provide streaming services and production for multiple tracks during the conference.
 
 Our goal for 2024 is to gather 700 Ruby enthusiasts from all over the world.
 However, one exciting thing about Hills is that the conference can scale there without losing quality. If we notice we can reach a 1000 participants we are open to expanding.
