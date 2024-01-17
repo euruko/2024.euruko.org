@@ -21,7 +21,7 @@ We will look to start selling tickets around February.
 According to current budget projections, for a five-star congress and thermal spa resort in Bosnia & Herzegovina the tickets will be something like:
 - Early-Bird 150 EUR (+ VAT)
 - Regular 200 EUR (+ VAT)
-- Regular Support 250 EUR (+ VAT) -> for all Ruby heroes that want to support us
+- Regular Support 300 EUR (+ VAT) -> for all Ruby heroes that want to support us
 - Online 50 EUR (+ VAT) -> virtual/networking platform access, streaming access, non-refundable
 
 Since we are not looking to turn a profit on this conference, but rather to simply make a G.O.A.T. EuRuKo experience and cover our operational costs, if we get quality support from sponsors and the sponsors cover a good chunk or most of our costs, the tickets will naturally cost less.
