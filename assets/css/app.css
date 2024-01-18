@@ -1389,6 +1389,10 @@ body {
     background: url('../images/milje-pattern-2.png') top right / auto 12.75% no-repeat scroll;
   }
 
+  .section.section--speakers::before {
+    background: url('../images/milje-pattern-4.png') top left / auto 14% no-repeat scroll;
+  }
+
   .section.section--sponsors::before {
     top: -20px;
     background: url('../images/milje-pattern-3.png') top right / auto 14% no-repeat scroll;
@@ -1776,6 +1780,10 @@ body {
     background: url('../images/milje-pattern-2.png') top right / auto 22.5% no-repeat scroll;
   }
 
+  .section.section--speakers::before {
+    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
+  }
+
   .section.section--sponsors::before {
     top: -20px;
     background: url('../images/milje-pattern-3.png') top right / auto 20% no-repeat scroll;
@@ -2046,6 +2054,10 @@ body {
     background: url('../images/milje-pattern-2.png') top right / auto 25% no-repeat scroll;
   }
 
+  .section.section--speakers::before {
+    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
+  }
+
   .section.section--sponsors::before {
     background: url('../images/milje-pattern-3.png') top right / auto 25% no-repeat scroll;
   }
@@ -2242,6 +2254,10 @@ body {
 
   .section.section--location::before {
     background: url('../images/milje-pattern-2.png') top right / auto 27.5% no-repeat scroll;
+  }
+
+  .section.section--speakers::before {
+    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
   }
 
   .section.section--sponsors::before {
