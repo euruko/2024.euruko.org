@@ -2282,3 +2282,59 @@ body {
     padding: 40px 40px 80px;
   }
 }
+
+.package {
+  width: 16%;
+}
+
+.center img {
+  height: 1em;
+}
+
+td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-overflow-wrapper {
+  padding: 0 20px;
+  overflow-x: scroll;
+}
+thead tr,
+tfoot tr,
+tr:nth-child(2n) {
+  background-color: mix(white,white);
+}
+
+.cta {
+  margin-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+table .center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid white;
+  vertical-align: middle;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tfoot td {
+  font-weight: bold
+}
