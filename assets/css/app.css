@@ -636,6 +636,10 @@ body {
   flex: 0 0 25%;
 }
 
+.col--1-5 {
+  flex: 0 0 20%;
+}
+
 .col--2-4 {
   flex: 0 0 50%;
 }
@@ -736,6 +740,18 @@ body {
 
 .card .card__logo__link img {
   max-width: 100%;
+}
+
+.card .card__logo__link-large img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card__logo__link-medium img {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card .card__text {
@@ -1628,6 +1644,10 @@ body {
   .col--sm-100 {
     flex: 0 0 100%;
   }
+
+  .col--sm-80 {
+    flex: 0 0 80%;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -2021,6 +2041,10 @@ body {
 
   .col--md-1-2 {
     flex: 0 0 50%;
+  }
+
+  .col--md-1-4 {
+    flex: 0 0 25%;
   }
 }
 
