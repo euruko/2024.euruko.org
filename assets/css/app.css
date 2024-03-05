@@ -2341,6 +2341,7 @@ table {
   width: 100%;
   font-size: 15px;
   margin-bottom: 40px;
+  background-color: rgba(0,0,0,0.7);
 }
 
 table .center {
