@@ -864,6 +864,10 @@ body {
   margin: 40px 0 0;
 }
 
+.extra_margin_below {
+  margin: 40px 0 100px;
+}
+
 .benefit {
   display: flex;
   flex-direction: column;
