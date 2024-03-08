@@ -1519,6 +1519,11 @@ body {
     row-gap: 30px;
   }
 
+  .speakers-list {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+
   .benefit .benefit__image {
     aspect-ratio: 1 / 1;
     margin: 0 auto;
@@ -1915,6 +1920,12 @@ body {
     column-gap: 30px;
   }
 
+  .speakers-list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
   .benefit .benefit__image {
     aspect-ratio: 1 / 1;
     margin: 0 auto;
@@ -2171,6 +2182,12 @@ body {
   }
 
   .benefits {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .speakers-list {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     row-gap: 30px;
