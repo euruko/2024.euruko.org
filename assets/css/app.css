@@ -460,7 +460,7 @@ body {
   bottom: 0;
   z-index: 2;
   opacity: .7;
-  background: url('../images/milje-pattern-4.png') top left / auto 50% no-repeat scroll;
+  background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
 }
 
 .section.section--partners::before {
@@ -722,6 +722,12 @@ body {
   padding: 20px 30px 20px;
 }
 
+.card .card__body_no_padding {
+  position: relative;
+  flex: 1;
+  padding: 0px 0px 0px;
+}
+
 .card .card__footer {
   display: inline-flex;
   justify-content: center;
@@ -750,6 +756,18 @@ body {
 
 .card .card__logo__link-medium img {
   max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card__logo__link-medium-silver img {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card__logo__link-small img {
+  max-width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -855,6 +873,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.speakers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin: 40px 0 0;
 }
 
 .benefits {
