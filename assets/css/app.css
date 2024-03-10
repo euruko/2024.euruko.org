@@ -1835,12 +1835,12 @@ body {
   }
 
   .section.section--speakers::before {
-    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
+    background: url('../images/milje-pattern-4.png') top left / auto 6% no-repeat scroll;
   }
 
   .section.section--sponsors::before {
     top: -20px;
-    background: url('../images/milje-pattern-3.png') top right / auto 20% no-repeat scroll;
+    background: url('../images/milje-pattern-3.png') top right / auto 10% no-repeat scroll;
   }
 
   .section.section--partners::before {
@@ -2089,6 +2089,92 @@ body {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar {
+    padding: 10px 20px;
+    height: 60px;
+  }
+
+  .navbar .navbar__inner {
+    display: none;
+  }
+
+  .navbar .navbar__mobile {
+    display: block;
+    height: 100%;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  }
+
+  .navbar .navbar__mobile .navbar_mobile__menu {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat scroll;
+    cursor: pointer;
+  }
+
+  .navbar .navbar__mobile .navbar_mobile__close {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat scroll;
+    cursor: pointer;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    background-color: var(--secondary-color);
+    z-index: 100;
+    transition: all .2s ease-in;
+    visibility: visible;
+    transform: translateX(201%);
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content.is-visible {
+    transition-delay: .1s;
+    transform: none !important;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content__inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 80px 20px 40px;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content .navbar__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content .navbar__list .navbar__list__item + .navbar__list__item {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .navbar__list__item.has-note {
+    position: relative;
+  }
+
+  .navbar__list__link {
+
+  }
+
   .page.page--pattern::before {
     display: none;
   }
@@ -2119,15 +2205,15 @@ body {
   }
 
   .section.section--speakers::before {
-    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
+    background: url('../images/milje-pattern-4.png') top left / auto 10% no-repeat scroll;
   }
 
   .section.section--sponsors::before {
-    background: url('../images/milje-pattern-3.png') top right / auto 25% no-repeat scroll;
+    background: url('../images/milje-pattern-3.png') top right / auto 15% no-repeat scroll;
   }
 
   .section.section--partners::before {
-    background: url('../images/milje-pattern-4.png') top left / auto 12% no-repeat scroll;
+    background: url('../images/milje-pattern-4.png') top left / auto 15% no-repeat scroll;
   }
 
   .section.section--partners::after {
@@ -2318,6 +2404,92 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    padding: 10px 20px;
+    height: 60px;
+  }
+
+  .navbar .navbar__inner {
+    display: none;
+  }
+
+  .navbar .navbar__mobile {
+    display: block;
+    height: 100%;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  }
+
+  .navbar .navbar__mobile .navbar_mobile__menu {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat scroll;
+    cursor: pointer;
+  }
+
+  .navbar .navbar__mobile .navbar_mobile__close {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat scroll;
+    cursor: pointer;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    background-color: var(--secondary-color);
+    z-index: 100;
+    transition: all .2s ease-in;
+    visibility: visible;
+    transform: translateX(201%);
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content.is-visible {
+    transition-delay: .1s;
+    transform: none !important;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content__inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 80px 20px 40px;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content .navbar__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar .navbar__mobile .navbar__mobile__content .navbar__list .navbar__list__item + .navbar__list__item {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .navbar__list__item.has-note {
+    position: relative;
+  }
+
+  .navbar__list__link {
+
+  }
+
   .section {
     padding: 50px 40px 60px;
   }
@@ -2327,7 +2499,7 @@ body {
   }
 
   .section.section--speakers::before {
-    background: url('../images/milje-pattern-4.png') top left / auto 20% no-repeat scroll;
+    background: url('../images/milje-pattern-4.png') top left / auto 10% no-repeat scroll;
   }
 
   .section.section--sponsors::before {
