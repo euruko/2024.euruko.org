@@ -882,6 +882,46 @@ body {
   margin: 40px 0 0;
 }
 
+.speaker-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-image: url(/assets/images/card_bg.png);
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  background-color: var(--text-color-default);
+  margin-bottom: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.speaker-card.speaker-card__matz {
+  background-image: url(/assets/images/speakers/cards/matz.png);
+}
+
+.speaker-card.speaker-card__maple {
+  background-image: url(/assets/images/speakers/cards/maple.png);
+}
+
+.speaker-card.speaker-card__irina {
+  background-image: url(/assets/images/speakers/cards/irina.png);
+}
+
+.speaker-card.speaker-card__xavier {
+  background-image: url(/assets/images/speakers/cards/xavier.png);
+}
+
+.speaker-card.speaker-card__steven {
+  background-image: url(/assets/images/speakers/cards/steven.png);
+}
+
+.speaker-card.speaker-card__victor {
+  background-image: url(/assets/images/speakers/cards/victor.png);
+}
+
+.speaker-card:hover {
+  opacity: 0.85;
+}
+
 .benefits {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
