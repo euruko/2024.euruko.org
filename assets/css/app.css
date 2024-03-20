@@ -926,6 +926,10 @@ body {
   background-image: url(/assets/images/speakers/cards/jean.png);
 }
 
+.speaker-card.speaker-card__question {
+  background-image: url(/assets/images/speakers/cards/question.png);
+}
+
 .speaker-card:hover {
   opacity: 0.85;
 }
