@@ -922,6 +922,10 @@ body {
   background-image: url(/assets/images/speakers/cards/ramon.png);
 }
 
+.speaker-card.speaker-card__jean {
+  background-image: url(/assets/images/speakers/cards/jean.png);
+}
+
 .speaker-card:hover {
   opacity: 0.85;
 }
