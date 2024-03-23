@@ -6,10 +6,10 @@ text: Our race to the mascot competition is open! Join the competition, get a fr
 ---
 
 <p class="section__text mb--2">
-  Our <a href="/race_to_the_mascot" target="_blank">race to the mascot</a> competition is open!
+  Our <a href="/race_to_the_mascot">race to the mascot</a> competition is open!
 </p>
 <p class="section__text mb--2">
-  Join the competition, get a free ticket and get featured on our <a href="/goat_multiverse" target="_blank">G.O.A.T. multiverse</a> wall.
+  Join the competition, get a free ticket and get featured on our <a href="/goat_multiverse">G.O.A.T. multiverse</a> wall.
 </p>
 <p class="section__text">
   Why the goat? <a href="/why_the_goat">Read more about it here</a>.
