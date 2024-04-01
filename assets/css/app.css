@@ -926,6 +926,10 @@ body {
   background-image: url(/assets/images/speakers/cards/jean.png);
 }
 
+.speaker-card.speaker-card__jose {
+  background-image: url(/assets/images/speakers/cards/jose.png);
+}
+
 .speaker-card.speaker-card__question {
   background-image: url(/assets/images/speakers/cards/question.png);
 }
