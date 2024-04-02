@@ -930,6 +930,10 @@ body {
   background-image: url(/assets/images/speakers/cards/jose.png);
 }
 
+.speaker-card.speaker-card__yuta {
+  background-image: url(/assets/images/speakers/cards/yuta.png);
+}
+
 .speaker-card.speaker-card__question {
   background-image: url(/assets/images/speakers/cards/question.png);
 }
