@@ -898,6 +898,10 @@ body {
   background-image: url(/assets/images/speakers/cards/matz.png);
 }
 
+.speaker-card.speaker-card__dave {
+  background-image: url(/assets/images/speakers/cards/dave.png);
+}
+
 .speaker-card.speaker-card__maple {
   background-image: url(/assets/images/speakers/cards/maple.png);
 }
