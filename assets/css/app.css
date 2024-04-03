@@ -906,6 +906,10 @@ body {
   background-image: url(/assets/images/speakers/cards/maple.png);
 }
 
+.speaker-card.speaker-card__maple2 {
+  background-image: url(/assets/images/speakers/cards/maple-2.png);
+}
+
 .speaker-card.speaker-card__irina {
   background-image: url(/assets/images/speakers/cards/irina.png);
 }
