@@ -946,6 +946,30 @@ body {
   background-image: url(/assets/images/speakers/cards/question.png);
 }
 
+.speaker-card.speaker-card__muhamed {
+  background-image: url(/assets/images/team/cards/muhamed.png);
+}
+
+.speaker-card.speaker-card__christoph {
+  background-image: url(/assets/images/team/cards/christoph.png);
+}
+
+.speaker-card.speaker-card__damir {
+  background-image: url(/assets/images/team/cards/damir.png);
+}
+
+.speaker-card.speaker-card__alessandro {
+  background-image: url(/assets/images/team/cards/alessandro.png);
+}
+
+.speaker-card.speaker-card__denis {
+  background-image: url(/assets/images/team/cards/denis.png);
+}
+
+.speaker-card.speaker-card__emir {
+  background-image: url(/assets/images/team/cards/emir.png);
+}
+
 .speaker-card:hover {
   opacity: 0.85;
 }
