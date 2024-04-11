@@ -962,6 +962,14 @@ body {
   background-image: url(/assets/images/team/cards/alessandro.png);
 }
 
+.speaker-card.speaker-card__zlatko {
+  background-image: url(/assets/images/team/cards/zlatko.png);
+}
+
+.speaker-card.speaker-card__enes {
+  background-image: url(/assets/images/team/cards/enes.png);
+}
+
 .speaker-card.speaker-card__denis {
   background-image: url(/assets/images/team/cards/denis.png);
 }
