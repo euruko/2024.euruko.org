@@ -966,6 +966,18 @@ body {
   background-image: url(/assets/images/team/cards/denis.png);
 }
 
+.speaker-card.speaker-card__zehra {
+  background-image: url(/assets/images/team/cards/zehra.png);
+}
+
+.speaker-card.speaker-card__midhet {
+  background-image: url(/assets/images/team/cards/midhet.png);
+}
+
+.speaker-card.speaker-card__amila {
+  background-image: url(/assets/images/team/cards/amila.png);
+}
+
 .speaker-card.speaker-card__emir {
   background-image: url(/assets/images/team/cards/emir.png);
 }
