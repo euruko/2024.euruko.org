@@ -1551,7 +1551,7 @@ body {
   }
 
   .section.section--speakers::before {
-    background: url('../images/milje-pattern-4.png') top left / auto 4% no-repeat scroll;
+    background: url('../images/milje-pattern-4.png') top left / auto 1.7% no-repeat scroll;
   }
 
   .section.section--sponsors::before {
