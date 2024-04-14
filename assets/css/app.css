@@ -954,6 +954,10 @@ body {
   background-image: url(/assets/images/team/cards/muhamed.png);
 }
 
+.speaker-card.speaker-card__mustafa {
+  background-image: url(/assets/images/team/cards/mustafa.png);
+}
+
 .speaker-card.speaker-card__christoph {
   background-image: url(/assets/images/team/cards/christoph.png);
 }
