@@ -954,6 +954,14 @@ body {
   background-image: url(/assets/images/team/cards/muhamed.png);
 }
 
+.speaker-card.speaker-card__almir {
+  background-image: url(/assets/images/team/cards/almir.png);
+}
+
+.speaker-card.speaker-card__hazim {
+  background-image: url(/assets/images/team/cards/hazim.png);
+}
+
 .speaker-card.speaker-card__mustafa {
   background-image: url(/assets/images/team/cards/mustafa.png);
 }
