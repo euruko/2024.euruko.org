@@ -970,6 +970,18 @@ body {
   background-image: url(/assets/images/team/cards/alessandro.png);
 }
 
+.speaker-card.speaker-card__ena {
+  background-image: url(/assets/images/team/cards/ena.png);
+}
+
+.speaker-card.speaker-card__rene {
+  background-image: url(/assets/images/team/cards/rene.png);
+}
+
+.speaker-card.speaker-card__anton {
+  background-image: url(/assets/images/team/cards/anton.png);
+}
+
 .speaker-card.speaker-card__zlatko {
   background-image: url(/assets/images/team/cards/zlatko.png);
 }
