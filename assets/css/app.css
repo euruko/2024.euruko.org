@@ -1385,6 +1385,10 @@ body {
   color: var(--text-color-default);
 }
 
+.ma--2 {
+  margin-top: 20px;
+}
+
 .mb--2 {
   margin-bottom: 20px;
 }
