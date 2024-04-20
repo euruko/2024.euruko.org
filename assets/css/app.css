@@ -906,10 +906,6 @@ body {
   background-image: url(/assets/images/speakers/cards/maple.png);
 }
 
-.speaker-card.speaker-card__maple2 {
-  background-image: url(/assets/images/speakers/cards/maple-2.png);
-}
-
 .speaker-card.speaker-card__irina {
   background-image: url(/assets/images/speakers/cards/irina.png);
 }
@@ -926,8 +922,8 @@ body {
   background-image: url(/assets/images/speakers/cards/victor.png);
 }
 
-.speaker-card.speaker-card__ramon {
-  background-image: url(/assets/images/speakers/cards/ramon.png);
+.speaker-card.speaker-card__carmen {
+  background-image: url(/assets/images/speakers/cards/carmen.png);
 }
 
 .speaker-card.speaker-card__jean {
