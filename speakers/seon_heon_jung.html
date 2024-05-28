@@ -1,0 +1,79 @@
+---
+title: EuRuKo 2024 | Speakers | Seong-Heon Jung
+permalink: /speakers/seon_heon_jung
+layout: page
+---
+<main class="content">
+  <section class="section section--basic">
+    <div class="section__content">
+      <div class="cards mb--2">
+        <div class="cards__item col--1-4 col--md-1-2 col--sm-100">
+          <div class="card card--speaker">
+            <a href="https://ruby.social/@castlehoney" target="_blank">
+              <div class="card__image" style="background-image: url('/assets/images/speakers/seon-heon-jung.jpg');">
+              </div>
+            </a>
+            <div class="card__body">
+              <ul class="card__socials">
+                <li class="card__socials__item">
+                  <a href="https://ruby.social/@castlehoney" target="_blank" class="card__socials__link for-mastodon"></a>
+                </li>
+              </ul>
+              <h4 class="card__name">Seong-Heon Jung</h4>
+              <p class="card__note text--bold">Talk: Using Ractors and Making Ractors Usable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <article class="section__article mb--2">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">Using Ractors and Making Ractors Usable</h3>
+          <p class="section__article__text mb--2">
+            Enough Fibonacci functions! It’s time for Ractors to work a real
+job. Join me in building a Rack server with Ractors. We’ll solve
+real-world problems like worker pooling, async programming, and
+sharing global objects across Ractors (gasp). In the process, we’ll
+discuss where Ractors need to go next.
+          </p>
+          <p class="section__article__text mb--2">
+            Ractor is an ambitious feature introduced with Ruby 3.0 enabling truly parallel
+execution on CRuby. Adoption of Ractors has been somewhat slow, however,
+because Ractors are not a drop-in replacement for previous concurrency abstrac-
+tions. In fact, they require a different architecture altogether. In this talk, we’ll
+walk through the process of building a project using Ractors through the exam-
+ple of a Ractor-based & Rack-compatible web server. We’ll look at using Ractors
+with - existing design patterns - novel design patterns - Ractor-unfriendly pat-
+terns. Simultaneously, we’ll evaluate Ractors as a language feature; that is,
+examine its stability, reliability, and coherence with other concurrency abstrac-
+tions like Fibers and Threads. The talk aims to lend insight into how you can
+use Ractors in your own, non-trivial project and leave with ideas on how you
+can contribute to the improvement of Ractors as a language feature.
+          </p>
+        </div>
+      </article>
+      <article class="section__article mb--8">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">Bio</h3>
+          <p class="section__article__text mb--2">
+            I am a core member of a research team working on parallel computing (not
+in Ruby), and I’d love to share some parallel design insights I learned in my
+team with the Ruby community. I also experimented very heavily with Ractors,
+which led to my finding of over 5 bugs in Ractors alone, with one potential CVE in the drafts with a security researcher. Some non-Ractor design patterns
+I will cover in the talk are worker pools, event loops, asynchronous connection
+handling, and incorporating singletons (e.g. Loggers). I will also cover some
+critical bugs in Ractors that have not been patched yet and how to circumvent
+them.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="text--align-center">
+      <a href="/all_speakers" class="button button--secondary">
+        View all Speakers
+      </a>
+      <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--secondary">
+        Buy a Ticket
+      </a>
+    </div>
+  </section>
+</main>

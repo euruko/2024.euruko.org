@@ -1,8 +1,20 @@
-<nav class="navbar">
+<nav class="navbar" id="home_navbar">
   <div class="navbar__inner">
+    <div class="navbar__logo">
+      <a href="/" >
+        <img src="/assets/images/logotip.svg" alt="EuRuKo 2024" />
+      </a>
+    </div>
+
     <ul class="navbar__list">
       <li class="navbar__list__item">
         <a href="/coc" class="navbar__list__link">Code of Conduct</a>
+      </li>
+      <li class="navbar__list__item">
+        <a href="/#location" class="navbar__list__link">Location</a>
+      </li>
+      <li class="navbar__list__item">
+        <a href="/#agenda" class="navbar__list__link">Agenda</a>
       </li>
       <li class="navbar__list__item">
         <a href="/#speakers" class="navbar__list__link">Speakers</a>
@@ -10,18 +22,11 @@
       <li class="navbar__list__item">
         <a href="/#sponsors" class="navbar__list__link">Sponsors</a>
       </li>
-    </ul>
-    <div class="navbar__logo">
-      <a href="/" >
-        <img src="/assets/images/logo.png" alt="EuRuKo 2024" />
-      </a>
-    </div>
-    <ul class="navbar__list">
-      <li class="navbar__list__item">
-        <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--primary">Buy a Ticket</a>
+      <li class="navbar__list__item has-note">
+        <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--secondary">Buy a Ticket</a>
       </li>
       <li class="navbar__list__item">
-        <a href="/sponsoring" class="button button--primary">Become a Sponsor</a>
+        <a href="/sponsoring" class="button button--secondary">Become a Sponsor</a>
       </li>
     </ul>
   </div>
@@ -29,7 +34,7 @@
     <div class="navbar__mobile__inner">
       <div class="navbar__logo">
         <a href="/" >
-          <img src="/assets/images/logo.png" alt="EuRuKo 2024" />
+          <img src="/assets/images/logotip.svg" alt="EuRuKo 2024" />
         </a>
       </div>
       <div onClick="toggleMenu()" class="navbar_mobile__menu">
@@ -46,16 +51,22 @@
             <a href="/coc" class="navbar__list__link">Code of Conduct</a>
           </li>
           <li class="navbar__list__item">
+            <a href="/#location" class="navbar__list__link">Location</a>
+          </li>
+          <li class="navbar__list__item">
+            <a href="/#agenda" class="navbar__list__link">Agenda</a>
+          </li>
+          <li class="navbar__list__item">
             <a href="/#speakers" class="navbar__list__link">Speakers</a>
           </li>
           <li class="navbar__list__item">
             <a href="/#sponsors" class="navbar__list__link">Sponsors</a>
           </li>
           <li class="navbar__list__item">
-            <a href="/sponsoring" class="button button--primary">Become a Sponsor</a>
+            <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--secondary">Buy a Ticket</a>
           </li>
           <li class="navbar__list__item">
-            <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--primary">Buy a Ticket</a>
+            <a href="/sponsoring" class="button button--secondary">Become a Sponsor</a>
           </li>
         </ul>
       </div>

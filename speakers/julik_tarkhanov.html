@@ -1,0 +1,91 @@
+---
+title: EuRuKo 2024 | Speakers | Julik Tarkhanov
+permalink: /speakers/julik_tarkhanov
+layout: page
+---
+<main class="content">
+  <section class="section section--basic">
+    <div class="section__content">
+      <div class="cards mb--2">
+        <div class="cards__item col--1-4 col--md-1-2 col--sm-100">
+          <div class="card card--speaker">
+            <a href="https://ruby.social/@julik" target="_blank">
+              <div class="card__image" style="background-image: url('/assets/images/speakers/julik_tarkhanov.jpg');">
+              </div>
+            </a>
+            <div class="card__body">
+              <ul class="card__socials">
+                <li class="card__socials__item">
+                  <a href="https://ruby.social/@julik" target="_blank" class="card__socials__link for-mastodon"></a>
+                </li>
+              </ul>
+              <h4 class="card__name">Julik Tarkhanov</h4>
+              <p class="card__note text--bold">Talk: On the benefits of slot scheduling</p>
+              <p class="card__note">Director of engineering at Cheddar Payments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <article class="section__article mb--2">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">On the benefits of slot scheduling</h3>
+          <p class="section__article__text mb--2">
+            Ensuring smooth operation for thousands of users with regular work-
+loads is hard. Using slot scheduling can help you make your work-
+load and throughput more predictable and your users happy. Slot
+scheduling is a great medicine to alleviate load spikes on your back-
+ground jobs cluster.
+          </p>
+          <p class="section__article__text mb--2">
+            The traditional way of performing tasks for multiple users in the system is to
+            schedule them using cron or similar. The issue however, is that scheduling “all
+            the work for all the users” into one time slot will create a large load spike.
+            This is bad for your shared services - the DB, Redis, APIs you call into - but
+            also bad for your wallet, as you will need to suddenly scale your system by a
+            factor when the time comes to run those jobs. In our company we need to run
+            sync jobs to external APIs for every user - tens of thousands of users, and we
+            want those jobs to run with predictable frequency. While we previously selected
+            “least-recently-synced” workloads first, this came with the load spikes and all
+            the accompanying issues.
+          </p>
+          <p class="section__article__text mb--2">
+            Slot scheduling tackles the problem differently. It computes a modulo over the
+            workload owner ID (like the user ID) and then buckets the user into one of a
+            fixed number of slots. This allows us to run an approximately even number
+            of tasks at any given point in time, providing for a near-flat throughput. It is
+            better for the shared services, better for the queue - as jobs get portioned into
+            the job queue in smaller batches, and do not stick around for long - and better
+            for autoscaling, as there is much less of it needed.
+          </p>
+          <p class="section__article__text mb--2">
+            We are also going to discuss a very viable strategy for designing systems like
+            this - discrete simulations, which - when applied properly - can save hours of
+            testing.
+          </p>
+        </div>
+      </article>
+      <article class="section__article mb--8">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">Bio</h3>
+          <p class="section__article__text mb--2">
+            Julik Tarkhanov is the director of engineering at Cheddar Payments, a fledging
+fintech startup in the UK, where he is responsible for running the engineering
+team and for a good handful of hands-on development. Prior he worked at
+WeTransfer where he was responsible for file storage and infrastructure, and
+before that - in the visual effects industry creating images that inspire and
+befuddle. On his free time he explores weird user interfaces and plays bass
+guitar and trumpet.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="text--align-center">
+      <a href="/all_speakers" class="button button--secondary">
+        View all Speakers
+      </a>
+      <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--secondary">
+        Buy a Ticket
+      </a>
+    </div>
+  </section>
+</main>

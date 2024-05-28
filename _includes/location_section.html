@@ -1,0 +1,94 @@
+<section class="section section--location" id="location">
+  <div class="section__content">
+    <article class="section__article">
+      <div class="col--1-2 col--sm-100">
+        <h3 class="section__article__title has-dot">Location</h3>
+        <p class="section__article__text mb--2">
+          EuRuKo 2024 will be held at <a href="https://hotelhills.ba/" target="_blank" class="text--primary">Hotel Hills: Congress & Thermal Spa Resort</a>.
+        </p>
+        <p class="section__article__text mb--2">
+          This five-start resort is home to the biggest and most modern convention center in the region. It's
+          conveniently located only 2km from the well connected Sarajevo airport. Accessible via a tram line connection
+          to the city or a 30 minute bus or taxi ride from the historic Sarajevo city center.
+        </p>
+        <p class="section__article__text mb--2">
+          Please use the following links to get the discounted accommodation:
+        </p>
+        <p class="section__article__text">
+          Hotel Hills: <a href="https://hotelhills.ba/reservation-form-euruko/" target="_blank" class="text--primary">reservation form (€80+)</a>
+        </p>
+        <p class="section__article__text mb--4">
+          Hotel Hollywood: <a href="https://www.hotel-hollywood.ba/reservation-form-euruko/" target="_blank" class="text--primary">reservation form (€60+)</a>
+        </p>
+        <div class="qr-code">
+          <img src="/assets/images/qr_code.png" alt="QR Code" />
+        </div>
+      </div>
+      <div class="col--1-2 col--sm-100">
+        <div class="section__article__slider">
+          <div class="slider">
+            <div class="slider__inner">
+              <div class="slider__item is-showing" id="slide_1">
+                <img src="/assets/images/slides/slide_1.png" alt="Hotel Hills 1" />
+              </div>
+              <div class="slider__item is-hidden" id="slide_2">
+                <img src="/assets/images/slides/slide_2.png" alt="Hotel Hills 2" />
+              </div>
+              <div class="slider__item is-hidden" id="slide_3">
+                <img src="/assets/images/slides/slide_3.png" alt="Hotel Hills 3" />
+              </div>
+            </div>
+            <div class="slider__controls">
+              <div onClick="showSlideOne()" class="slider__control is-active" id="slider_button_1"></div>
+              <div onClick="showSlideTwo()" class="slider__control" id="slider_button_2"></div>
+              <div onClick="showSlideThree()" class="slider__control" id="slider_button_3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<script type="text/javascript">
+  function showSlideOne() {
+    setElementClass("slide_3", "is-hidden");
+    setElementClass("slide_2", "is-hidden");
+    removeElementClass("slide_1", "is-hidden");
+
+    removeElementClass("slide_3", "is-showing");
+    removeElementClass("slide_2", "is-showing");
+    setElementClass("slide_1", "is-showing");
+
+    removeElementClass("slider_button_3", "is-active");
+    removeElementClass("slider_button_2", "is-active");
+    setElementClass("slider_button_1", "is-active");
+  }
+
+  function showSlideTwo() {
+    setElementClass("slide_1", "is-hidden");
+    setElementClass("slide_3", "is-hidden");
+    removeElementClass("slide_2", "is-hidden");
+
+    removeElementClass("slide_1", "is-showing");
+    removeElementClass("slide_3", "is-showing");
+    setElementClass("slide_2", "is-showing");
+
+    removeElementClass("slider_button_3", "is-active");
+    removeElementClass("slider_button_1", "is-active");
+    setElementClass("slider_button_2", "is-active");
+  }
+
+  function showSlideThree() {
+    setElementClass("slide_1", "is-hidden");
+    setElementClass("slide_2", "is-hidden");
+    removeElementClass("slide_3", "is-hidden");
+
+    removeElementClass("slide_1", "is-showing");
+    removeElementClass("slide_2", "is-showing");
+    setElementClass("slide_3", "is-showing");
+
+    removeElementClass("slider_button_1", "is-active");
+    removeElementClass("slider_button_2", "is-active");
+    setElementClass("slider_button_3", "is-active");
+  }
+</script>

@@ -1,0 +1,129 @@
+---
+title: EuRuKo 2024 | Speakers | Yudai Takada
+permalink: /speakers/yudai_takada
+layout: page
+---
+<main class="content">
+  <section class="section section--basic">
+    <div class="section__content">
+      <div class="cards mb--2">
+        <div class="cards__item col--1-4 col--md-1-2 col--sm-100">
+          <div class="card card--speaker">
+            <a href="https://x.com/ydah_" target="_blank">
+              <div class="card__image" style="background-image: url('/assets/images/speakers/yudai_takada.jpg');">
+              </div>
+            </a>
+            <div class="card__body">
+              <ul class="card__socials">
+                <li class="card__socials__item">
+                  <a href="https://x.com/ydah_" target="_blank" class="card__socials__link for-twitter"></a>
+                </li>
+              </ul>
+              <h4 class="card__name">Yudai Takada</h4>
+              <p class="card__note text--bold">Talk: How does Lrama make the Ruby parser grammar G.O.A.T.?</p>
+              <p class="card__note">OSS programmer. Rubyist. Committer of Lrama. RuboCop RSpec team. Maintainer of Committee. Co-Founder of Kyobashi.rb.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <article class="section__article mb--2">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">How does Lrama make the Ruby parser grammar G.O.A.T.?</h3>
+          <p class="section__article__text mb--2">
+            The Ruby parser has historically been hacked in many complex ways.
+So, parse.y called Demon Castle. In Ruby 3.3, Lrama now gener-
+ates Ruby parsers instead of GNU Bison, which generated Ruby
+parser. I introduce how Lrama extends and improves the grammar
+of Ruby parser.
+          </p>
+          <p class="section__article__text mb--2">
+            In this talk, I introduce how to make difficult Ruby parser grammar files
+(parse.y) easier to understand and what the future holds.
+          </p>
+          <p class="section__article__text mb--2">
+            Until now, Ruby parser grammar files have been constrained by GNU Bison to
+represent flexible Ruby grammar through complex hacks. So, they have been
+very difficult to maintain, and there has been a lively discussion about the need
+to improve the maintainability, flexibility, and usability of the Ruby parser.
+          </p>
+          <p class="section__article__text mb--2">
+            However, this changed with the replacement of GNU Bison with Lrama in Ruby
+3.3. This makes it easier for us to extend richer grammars.
+          </p>
+          <p class="section__article__text mb--2">
+            For example, the feature to concisely represent frequent patterns improves the
+readability of grammar files. Also, when adding or updating grammars in a
+grammar file, conflicts with existing grammars can be difficult to resolve. f you
+have a feature that allows you to easily resolve conflicts, you should be able to
+easily change the grammar.
+          </p>
+          <p class="section__article__text mb--2">
+            The following are some of the major extensions I will cover in the talk:
+          </p>
+          <p class="section__article__text mb--2">
+            Parameterizing Rules:
+          </p>
+          <ul class="section__article__list mb--4">
+            <li class="section__article__list__item is-accepted">
+              Provides notation for parameterizing the definition of a non-terminal sym-
+bol with other (terminal or non-terminal) symbols
+            </li>
+            <li class="section__article__list__item is-accepted">
+              Supports EBNF syntax, you can write grammar files using the ?, +, and
+* modifiers
+            </li>
+          </ul>
+          <p class="section__article__text mb--2">
+            Standard Library:
+          </p>
+          <ul class="section__article__list mb--4">
+            <li class="section__article__list__item is-accepted">
+              Provides standard libraries with standard, generic definitions of options,
+lists, etc.
+            </li>
+            <li class="section__article__list__item is-accepted">
+              Users can use these definitions to succinctly and effectively represent com-
+mon patterns
+            </li>
+          </ul>
+          <p class="section__article__text mb--2">
+            Inline:
+          </p>
+          <ul class="section__article__list mb--4">
+            <li class="section__article__list__item is-accepted">
+              Provides a solution to avoid conflicts without changing grammar
+            </li>
+            <li class="section__article__list__item is-accepted">
+              Conflicts are difficult to resolve, but they can be effectively handled with-
+out complex changes to parser.
+            </li>
+          </ul>
+          <p class="section__article__text mb--2">
+            I will explain the improvements that these extensions bring to Ruby parser’s
+grammar files with specific examples, and also cover the basics of parser and
+parser generator, and the current state of Ruby parser. Therefore, I plan to
+make the structure easy to understand for audiences who don’t know much
+about Ruby parser.
+          </p>
+        </div>
+      </article>
+      <article class="section__article mb--8">
+        <div class="col--100">
+          <h3 class="section__article__title has-dot">Bio</h3>
+          <p class="section__article__text mb--2">
+            A contributor for ruby/lrama. Co-Founder of Kyobashi.rb. A Software engineer
+at ANDPAD, Inc.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="text--align-center">
+      <a href="/all_speakers" class="button button--secondary">
+        View all Speakers
+      </a>
+      <a href="https://ti.to/european-ruby-konferenz/2024" target="_blank" class="button button--secondary">
+        Buy a Ticket
+      </a>
+    </div>
+  </section>
+</main>
