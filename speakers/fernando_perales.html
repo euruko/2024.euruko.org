@@ -29,23 +29,24 @@ layout: page
         <div class="col--100">
           <h3 class="section__article__title has-dot">Let's give REST a rest: exploring the state of gRPC in Ruby</h3>
           <p class="section__article__text mb--2">
-            We love writing Ruby code but, what if I tell you that sometimes the
-answer is not writing more Ruby code but removing it?Learn how
-to improve the performance of your app by leveraging other parts of
-your application that are usually neglected. For this episode, we’ll
-focus on the database
+            I’ll present some of the advantages of gRPC such as duplex stream-
+ing, auto generated client code, connection pool and first class load
+balancing, and how it can be applied.I’ll also talk about the main
+disadvantages of implementing gRPC in an existing codebase.
           </p>
           <p class="section__article__text mb--2">
-            I’ll show some comparisons between common problems solved by using a pure
-Ruby implementation and its counterpart with a more db-oriented solution. I’ll
-also demonstrate how we can take advantage of databases such redis, neo4j and
-Cassandra as well as other additional tools that can make of life easier such
-elasticsearch.
+            gRPC has been around for a while and, even though it’s neither a replacement
+of REST nor a better option for building APIs, it is an alternative that can be
+useful in certain cases where we can benefit from lightweight messages, built-in
+code generation and high performance. In this talk I’ll share the concepts, pros
+and cons, and use cases of gRPC with examples in Ruby.
           </p>
           <p class="section__article__text mb--2">
-            The outcome of the talk is that attendees will have a guide to spot what features
-of their application can be a good fit for a database-oriented solution instead of
-a code-oriented solution.
+            We’ll start with a quick refresher on HTTP and REST. We’ll move along with
+an introduction to gRPC/protobuf architecture and we will go through a demo
+on how to integrate gRPC in our Ruby applications and how to make it com-
+municate with a Go service and we’ll wrap up our session with some use cases
+where you may consider using gRPC instead of a REST API
           </p>
         </div>
       </article>
