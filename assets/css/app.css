@@ -3426,3 +3426,188 @@ body {
     padding: 40px 0px 0px;
   }
 }
+
+
+.card-stack > * + * {
+  margin-top: 32px;
+}
+
+.card--job {
+  padding: 24px 24px;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  color: var(--text-color-default);
+  border: 1px solid #3B4D53;
+  display: flex;
+  flex-direction: row;
+}
+
+.card--job .card__media {
+  flex: 0 0 200px;
+  margin-right: 24px;
+}
+
+.card--job .card__media img,
+.card--job .card__media span {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.card--job .card__media span {
+  display: block;
+  aspect-ratio: 1 / 1;
+  background-color: var(--image-placeholder);
+}
+
+.card--job .card__body {
+  padding: 0;
+}
+
+.card--job .card__title {
+  font-size: 32px;
+  margin-top: -8px;
+}
+
+.card--job .card__subtitle {
+  font-family: "Source Code Pro", monospace;
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+.card--job .card__text {
+  font-size: 14px;
+  font-family: 'Kanit', sans-serif;
+  color: var(--text-color-default);
+}
+
+.card--job .card__footer {
+  margin: 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card--job .card__footer .card__footer__block {
+  display: flex;
+  align-items: center;
+}
+
+.card--job .card__footer .card__footer__block > * + * {
+  margin-left: 32px;
+}
+
+.card--job .card-job__location,
+.card--job .card-job__price,
+.card--job .card-job__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+}
+
+.card--job .card-job__location::before,
+.card--job .card-job__price::before {
+  content: '';
+  display: inline-block;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.card--job .card-job__location::before {
+  width: 24px;
+  background: url('../images/pin.svg') center center / contain no-repeat scroll;
+}
+
+.card--job .card-job__price::before {
+  width: 28px;
+  background: url('../images/price.svg') center center / contain no-repeat scroll;
+}
+
+.card--job .card-job__link {
+  color: var(--text-color-default);
+  text-decoration: none;
+}
+
+.card--job .card-job__link::after {
+  content: '';
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  margin-left: 8px;
+  background: url('../images/arrow.svg') center center no-repeat scroll;
+}
+
+@media only screen and (max-width: 768px) {
+  .card--job {
+    flex-direction: column;
+  }
+
+  .card--job .card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+
+  .card--job .card__title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .card--job .card__subtitle {
+    font-size: 18px;
+  }
+
+  .card--job .card__footer {
+    flex-direction: column;
+  }
+
+  .card--job .card__footer .card__footer__block + .card__footer__block {
+    margin: 16px 0 0;
+  }
+
+  .card--job .card-job__location,
+  .card--job .card-job__price,
+  .card--job .card-job__link {
+    font-size: 16px;
+  }
+
+  .card--job .card-job__location::before {
+    width: 20px;
+    height: 18px;
+  }
+
+  .card--job .card-job__price::before {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .card--job .card__title {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  .card--job .card__subtitle {
+    font-size: 20px;
+    margin: 0 0 8px;
+  }
+
+  .card--job .card__footer .card__footer__block + .card__footer__block {
+    margin: 16px 0 0;
+  }
+
+  .card--job .card-job__location,
+  .card--job .card-job__price,
+  .card--job .card-job__link {
+    font-size: 16px;
+  }
+
+  .card--job .card__footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
