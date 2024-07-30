@@ -1397,6 +1397,10 @@ body {
   background-image: url('../images/linkedin.svg');
 }
 
+.card.card--speaker .card__socials .card__socials__link.for-instagram {
+  background-image: url('../images/instagram.svg');
+}
+
 .card.card--speaker .card__socials .card__socials__link.for-mastodon {
   background-image: url('../images/mastodon.svg');
 }
@@ -1563,6 +1567,10 @@ body {
 
 .profile__links__item.for-linkedin {
   background-image: url('../images/linkedin.svg');
+}
+
+.profile__links__item.for-instagram {
+  background-image: url('../images/instagram.svg');
 }
 
 .profile__links__item.for-mastodon {
@@ -1889,6 +1897,10 @@ body {
   background-image: url('../images/linkedin.svg');
 }
 
+.footer__socials .footer__socials__link.for-instagram {
+  background-image: url('../images/instagram.svg');
+}
+
 .footer__socials .footer__socials__link.for-twitter {
   background-image: url('../images/twitter.svg');
 }
@@ -2003,6 +2015,10 @@ body {
 
 .footer__links__item.for-linkedin {
   background-image: url('../images/linkedin.svg');
+}
+
+.footer__links__item.for-instagram {
+  background-image: url('../images/instagram.svg');
 }
 
 .footer__links__item.for-mastodon {
