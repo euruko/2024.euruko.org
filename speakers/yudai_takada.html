@@ -32,79 +32,22 @@ layout: page
           <h3 class="section__article__title has-dot">How does Lrama make the Ruby parser grammar G.O.A.T.?</h3>
           <p class="section__article__text mb--2">
             The Ruby parser has historically been hacked in many complex ways.
-So, parse.y called Demon Castle. In Ruby 3.3, Lrama now gener-
-ates Ruby parsers instead of GNU Bison, which generated Ruby
-parser. I introduce how Lrama extends and improves the grammar
-of Ruby parser.
+            As a result, the files that define Ruby syntax and its capabilities
+            are complex enough to be called the Demon Castle.
           </p>
           <p class="section__article__text mb--2">
-            In this talk, I introduce how to make difficult Ruby parser grammar files
-(parse.y) easier to understand and what the future holds.
+            In Ruby 3.3, Lrama now generates Ruby parsers instead of GNU Bison,
+            which generated the Ruby parser. In this talk, I'll show you why we
+            are developing Lrama and how it improves the complex syntax
+            definitions of Ruby.
           </p>
           <p class="section__article__text mb--2">
-            Until now, Ruby parser grammar files have been constrained by GNU Bison to
-represent flexible Ruby grammar through complex hacks. So, they have been
-very difficult to maintain, and there has been a lively discussion about the need
-to improve the maintainability, flexibility, and usability of the Ruby parser.
-          </p>
-          <p class="section__article__text mb--2">
-            However, this changed with the replacement of GNU Bison with Lrama in Ruby
-3.3. This makes it easier for us to extend richer grammars.
-          </p>
-          <p class="section__article__text mb--2">
-            For example, the feature to concisely represent frequent patterns improves the
-readability of grammar files. Also, when adding or updating grammars in a
-grammar file, conflicts with existing grammars can be difficult to resolve. If you
-have a feature that allows you to easily resolve conflicts, you should be able to
-easily change the grammar.
-          </p>
-          <p class="section__article__text mb--2">
-            The following are some of the major extensions I will cover in the talk:
-          </p>
-          <p class="section__article__text mb--2">
-            Parameterizing Rules:
-          </p>
-          <ul class="section__article__list mb--4">
-            <li class="section__article__list__item is-accepted">
-              Provides notation for parameterizing the definition of a non-terminal sym-
-bol with other (terminal or non-terminal) symbols
-            </li>
-            <li class="section__article__list__item is-accepted">
-              Supports EBNF syntax, you can write grammar files using the ?, +, and
-* modifiers
-            </li>
-          </ul>
-          <p class="section__article__text mb--2">
-            Standard Library:
-          </p>
-          <ul class="section__article__list mb--4">
-            <li class="section__article__list__item is-accepted">
-              Provides standard libraries with standard, generic definitions of options,
-lists, etc.
-            </li>
-            <li class="section__article__list__item is-accepted">
-              Users can use these definitions to succinctly and effectively represent com-
-mon patterns
-            </li>
-          </ul>
-          <p class="section__article__text mb--2">
-            Inline:
-          </p>
-          <ul class="section__article__list mb--4">
-            <li class="section__article__list__item is-accepted">
-              Provides a solution to avoid conflicts without changing grammar
-            </li>
-            <li class="section__article__list__item is-accepted">
-              Conflicts are difficult to resolve, but they can be effectively handled with-
-out complex changes to parser.
-            </li>
-          </ul>
-          <p class="section__article__text mb--2">
-            I will explain the improvements that these extensions bring to Ruby parser’s
-grammar files with specific examples, and also cover the basics of parser and
-parser generator, and the current state of Ruby parser. Therefore, I plan to
-make the structure easy to understand for audiences who don’t know much
-about Ruby parser.
+            In particular, this talk will show you how the syntax definition
+            file syntax in Ruby has been improved to be G.O.A.T. This talk
+            also covers the basics of parsers and parser generators, as well as
+            the current state of the Ruby parser. Therefore, I plan to make the
+            talk easier to understand for an audience that doesn't know much
+            about Ruby parsers.
           </p>
         </div>
       </article>
